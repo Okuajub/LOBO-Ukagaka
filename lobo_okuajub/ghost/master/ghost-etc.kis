@@ -53,4 +53,26 @@ talk.OnNeedlePoke0 : (
     "! \0\s[0]What the "${vulgar.noun.singular}", "${personName}"?"
     $(? " A "${vulgar.verb.progressive}" "$(Reference 1)"?")
 )
-talk.OnNeedlePoke0 : "\0\s[1]\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]"${soulscream}"!\_w[1000]\0\s[0]"
+talk.OnNeedlePoke0 : "\0\s[1]"${soulscream}"!\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]\_w[1000]\0\s[0]"
+
+talk.OnSatolistBoot : "\0\s[0]Aha, building a new "${noun.singular}"? I'd love it if you made it "${verb.present}"."
+talk.OnSatolistBoot : "\0\s[0]Hrm, hmm, heem heem. You can navigate this thing?"
+talk.OnSatolistBoot : "MUST GENERATE CONTENT"
+
+talk.OnSatolistLoboOpened : "\0\s[0]Aeeeiiiiieee!!!! What exactly do you think YOU'RE doing?"
+talk.OnSatolistLoboOpened : "\0\s[0]don't mess around with my guts, don't stick your hands in there"
+
+talk.OnSatolistGhostOpened : "\0\s[0]Look, look! It's "$(Reference 0)"! I want to buy the new "${noun.singular}" they released recently."
+talk.OnSatolistGhostOpened : "\0\s[0]"$(Reference 1)"? What's that supposed to mean?"
+talk.OnSatolistGhostOpened : "\0\s[0]new new new new new new"
+
+talk.OnSatolistClosed : "\0\s[0]Bye bye, Satolist."
+talk.OnSatolistClosed : "\0\s[0]"${vulgar.verb.progressive}" Satolist."
+talk.OnSatolistClosed : "\0\s[0]don't leave me, too"
+
+talk.OnPhantaEepy : "\0\s[0]Hark! A Beast Encroaches Upon Me!"
+talk.OnPhantaEepy : "\0\s[0]What is this blithering thing?"
+talk.OnPhantaEepy : "\0\s[0]zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+talk.OnPhantaEepy : "\0\s[0]Lay off!"
+talk.OnPhantaEepy : "\0\s[0]bothersome creature"
+talk.OnPhantaEepy : "\0\s[0]how dare you defile me"

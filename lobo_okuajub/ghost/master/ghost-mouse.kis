@@ -11,7 +11,7 @@
 MouseDoubleClick0     : ${OnSakuraMenu}
 
 # When a hotspot is specified.
-MouseDoubleClick0Head : "\0\s[0]Something wrong?"
+MouseDoubleClick0Head : "\0\s[0]In what manner have you managed to trigger this?!?!"
 
 # -- Petting
 #
@@ -20,7 +20,4 @@ MouseDoubleClick0Head : "\0\s[0]Something wrong?"
 strokeLimit : 50
 
 # Sakura petting responses.
-MouseMove0Head : "\0\s[0]Hey, cut that out."
-
-# Kero petting responses.
-MouseMove0Face : "\0\s[0]That tickles.\w8 I bite when things tickle."
+MouseMove0: "\![raise,OnStartHowl]"

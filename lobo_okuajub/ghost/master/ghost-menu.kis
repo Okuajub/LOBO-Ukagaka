@@ -7,8 +7,10 @@
 # If you don't want any menus at all, go back to 'ghost-mouse.kis' and erase the 'MouseDoubleClick0' and 'MouseDoubleClick1' lines. You can then safely erase everything in this file, too.
 
 # You can write any dialogue you want for them to say when you first open the menu here.
-SakuMenuTalk : "\0"${adjective} ${noun.plural}, "\0"${verb.present}", for "${noun.plural}" "${verb.present}$(? "!" "." "?" "...")
-SakuMenuTalk : "\0For what "${noun.plural}" do you "${verb.present}"?", "\0"${verb.progressive}", "${verb.progressive}", "${verb.progressive}" "${noun.singular}
+SakuMenuTalk : "\0\s[0]"${adjective} ${noun.plural}, "\0\s[0]"${verb.present}", for "${noun.plural}" "${verb.present}$(? "!" "." "?" "...")
+SakuMenuTalk : "\0\s[0]For what "${noun.plural}" do you "${verb.present}"?", "\0\s[0]"${verb.progressive}", "${verb.progressive}", "${verb.progressive}" "${noun.singular}
+
+HowlMenuCaptions : "Sing The Song Of Your People", "Howl Your Heart Out", "Use Those Damn Lungs Of Yours", "Cry Cry Cry", "Speak You Damn Dog"
 
 OnSakuraMenu : (
     # You can safely ignore this line. It just remembers what dialogue the user saw when changing the talk interval.
@@ -20,6 +22,7 @@ OnSakuraMenu : (
     \n\n[half]
     \![*]\q[Say Something,OnAITalk]
     $( if $[ ${lastTalk} ] (\n\![*]\q[Repeat Yourself,OnLastTalk]) )
+    \n\![*]\q[${HowlMenuCaptions},OnStartHowl]
     \n\n[half]
     \![*]\q[Quit Menu,OnQuit,0]
     \n\n
@@ -43,6 +46,88 @@ OnSakuraMenu : (
     \f[italic,true]${@weekday}", %month/%day, "${@hour}":"${@minute}\f[italic,default]
 )
 
+OnStartHowl : $(?
+    "\![raise,OnPainHowl]"
+    "\![raise,OnSadHowl]"
+    "\![raise,OnHopefulHowl]"
+    "\![raise,OnStrangeHowl]"
+    "\![raise,OnVulgarHowl]"
+    "\![raise,OnNormalHowl]"
+)
+
+OnPainHowl : (
+    "\0\s[1]\f[size,+20]"
+    $(?
+        \f[size,default]${soulscream}
+        "MY WIFE LEFT MEEEEEEEEEEE"
+        "ARRRUUUUURURURUUUUUUU-\f[size,default]\0\s[0]*cough hack harumpf* ow..."
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     )
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]\_w[1000]\0\s[0]"
+)
+
+OnSadHowl : (
+    "\0\s[1]\f[size,+20]"
+    $(?
+        "I LOCKED MYSELF OUT OF MY HOUUUUUUUUUUUUSE"
+        "MY WIFE LEFT MEEEEEEEEEEE"$(loop $(rand 40) E)
+        "I'M ALL ALOOOOOOOOOOOOOOOOOOOONEEEEEEEEEEEEE"
+        "SONIC ADVENTURE 3 WON'T EVER BE REAAAAAAAAAAAAAAAAAAAAAAAALLLLLL, CHAO ARE NEVER COMING BAAAAAAAAAAAAAAAAACK"
+        "I BESEECH THEE, FIND PITY IN THY HEART! THOU MUST HAVE MERCY!"
+        "SORROW, SORROW IN MY HEART, SORROW FOR SUCH "$(toupper ${adjective} ${noun.plural})
+        "SAYONARA SAYONARA, RIDE THE SOLAR BARQUE, MAY WEPWAWET GUIDE YOU, YOU MAY NEVER COME BACK"
+     )
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,sad]\_w[1000]\0\s[0]"
+)
+
+OnHopefulHowl : (
+    "\0\s[1]\f[size,+20]"
+    $(?
+        "SOMETHING BEAUTIFUL IS GOING TO HAPPEN"
+        "THE APOCALYPSE WILL NEVER COME"
+        "MAY THOU FIND WHAT THOU SEEKETH"
+        "DO NOT BE AFRAID, FOR I HAVE "$(? "BEEN SENT BY "$(toupper ${personName}) $(toupper ${adjective} ${noun.plural}))" TO SAVE THE WORLD"
+        "LOVE, WE MUST CONTINUE TO LOVE"
+        "DEATH MAY NEVER FIND THEE, I MAKETH SO"
+        "A BABY IS BORN, A MARRIAGE BEGINS, A FRIEND IS MADE, EVERYWHERE ACROSS TIME"
+     )
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,hopeful]\_w[1000]\0\s[0]"
+)
+
+OnStrangeHowl : (
+    "\0\s[1]\f[size,+20]"
+    $(?
+        "BEWARE THE "$(? "INLAND EMPIRE" "BLACK LODGE" "RED ROOM" "CAPITALIST IDEOLOGUES" "PAINTING OF RED, YELLOW, AND BLUE" "UNREALISTIC EXPECTATIONS")
+        "COME OUT AND SAY HI, "$(toupper ${tempUser})", SHOW THAT FACE OF YOURS AROUND HERE"
+        "BEG PLEAD BEG BEG GROVEL BEG"
+        "WE MET AT THE AA MEETING"
+        "ANYBODY SMOKE WEED IN HERE"
+        "YOUR GODS CAN NO LONGER HEAR YOU"
+    )
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,strange]\_w[1000]\0\s[0]"
+)
+
+OnVulgarHowl : (
+    "\0\s[1]\f[size,+20]"
+    $(?
+        $(toupper ${vulgar.noun.singular}" "$(loop 11 ${vulgar.noun.singular}" "))
+        "DO YOU WANT "$(toupper ${vulgar.noun.singular}"?")
+        "ONE OF YOU SADFUCKS IS GOING TO FIGHT ME"
+    )
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,vulgar]\_w[1000]\0\s[0]"
+)
+
+OnNormalHowl : (
+    "\0\s[1]"
+    $(?
+        "\f[size,+20]AAAA"$(loop $(rand 8) A)"RR"$(loop $(rand 4) R)"UUU"$(loop $(rand 7) U)"OOOO"$(loop $(rand 20) O)$(loop $(rand 20) o)
+        "\f[size,+20]GA"$(loop $(rand 10) A)"RR"$(loop $(rand 4) R)"UUU"$(loop $(rand 7) U)"RRR"$(loop $(rand 20) U)$(loop $(rand 20) u)
+        "\f[size,+20]A"$(loop $(rand 10) A)"WWWWWW"$(loop $(rand 4) W)"OOO"$(loop $(rand 7) O)"OOO"$(loop $(rand 20) O)$(loop $(rand 20) o)
+    )
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,normal]\_w[1000]\0\s[0]"
+)
+
+
 OnAssignTalkRate : (
     $( setstr talkinterval $(Reference 0); set @dialogue $(Reference 1) )
     "\![raise,OnSakuraMenu,1]"
@@ -54,7 +139,7 @@ OnQuit : $(
 )
 
 # This is used for more than just quitting the menu. It's also used when quitting out of creating custom pronouns, so be mindful of that.
-SakuraQuit : "\0Yes, yes.", "\0Liquify.", "\0Splendiferous!", "\0"${adjective}" "${noun.plural}"..."
+SakuraQuit : "\0\s[0]Yes, yes.", "\0\s[0]Liquify.", "\0\s[0]Splendiferous!", "\0\s[0]"${adjective}" "${noun.plural}"..."
 
 # You can ignore this one. Its only purpose is to repeat what the Ghost last said when used, such as the repeat option in the Sakura Menu.
 OnLastTalk : ${lastTalk}

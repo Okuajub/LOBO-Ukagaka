@@ -23,6 +23,9 @@ resource.sakura.portalsites : $(urllist
 	"CHIPS Github"
 	"https://github.com/Okuajub/CHIPS/"
 	"-"
+	"LOBO Github"
+	"https://github.com/Okuajub/LOBO-Ukagaka/"
+	"-"
 )
 
 resource.sakura.recommendsites : $(urllist

@@ -392,6 +392,17 @@ OnNeedlePoke : $(
 	else ${talk.OnNeedlePoke$(Reference 0)};
 )
 
+OnSatolistBoot : ${talk.OnSatolistBoot}
+
+OnSatolistGhostOpened : $( 
+    if $[ $(Reference 0) == "lorem" ] ${talk.OnSatolistLoboOpened} 
+    else ${talk.SatolistGhostOpened}
+)
+
+OnSatolistClosed : ${talk.OnSatolistClosed}
+
+OnPhantaEepy : ${talk.OnPhantaEepy}
+
 #--
 # Notify
 #--

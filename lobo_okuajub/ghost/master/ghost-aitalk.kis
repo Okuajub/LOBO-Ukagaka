@@ -20,7 +20,7 @@ noun.singular : needle, thread, fate, crocodile, acetaminophen, sulfur, aegis, a
 noun.singular : hazelnut, quid, skyscraper, artifact, acursed-$(? artifact amulet), bellows, dread, joy, love, flesh, tack, psychopomp
 noun.singular : bug, Mojito, psyche, caladbolg, Excalibur, art, sin, meat, chuckeye, fear, digestive biscuit, rose
 noun.singular : chocolate, shadow, hole, wifey, webpage, amnesia, corpse, dandelion, televangelist, autonomy, stardust
-noun.singular : "poisoned chalice", skeleton, paradice, thunderbird, idiosyncrasy 
+noun.singular : "poisoned chalice", skeleton, paradice, thunderbird, idiosyncrasy, solar flare
 
 noun.plural : butterflies, larvae, phaetons, lobos, angles, cerberi, felidae, chordates, products, knights
 noun.plural : bullion, mineralls, armours, arks, beacons, meadowgrass, strawberries, pachydermata, advents, devils, memories, fruits
@@ -28,7 +28,7 @@ noun.plural : cryptids, beads, apple-cars, hydroflasks, chainsaws, fiends, chees
 noun.plural : cans of ${noun.singular}, spinning wheels, aerospace engineers, thing-a-ma-jigs, wings, recursive bows, rottenous eggs
 noun.plural : wounds, gouges, maws, psychopomps, flowers, bluebells, commies, Excaliburs, sins, chuckeyes, cow tools, dreams, rumors
 noun.plural : fears, sensibilities, digestive biscuits, tails, shadows, pantaloons, draculas, webpages, dandelions, televangelists, 
-noun.plural : deadheads, meteors, idiosyncrasies
+noun.plural : deadheads, meteors, idiosyncrasies, solar flares
 
 adjective : frightening, devasting, incomprehensible, sordid, aweful, abhorrent, calamitous, unpropitious, harrowing, unpreventable
 adjective : portentious, ineluctable, effervescing, vituperative, diaphanous, heterobasidiomycetous, presidential, fruity, bougie, Icarus-like
@@ -47,18 +47,18 @@ adverb : institutionally, recreationally, annoyingly, also, anyway, instead, ana
 verb.present : hark, look, wish, finish, exercise, revolve, arrive, hoist, render, pardon, liquify, hydrate, offend, beg, sniff
 verb.present : resolve, prowl, self-flagellate, grovel, kneel, spit, sum, divide, multiply, fruit, growl, affix, ambulate
 verb.present : manipulate, sculpt, fraternize, vex, flower, nuzzle, peace-make, fly, sprint, howl, illustrate, illuminate
-verb.present : purr, marry, frag
+verb.present : purr, marry, frag, slink
 
 verb.present.singular : harks, looks, wishes, finishes, exercises, revolves, arrives, hoists, pardons, liquifies, hydrates, offends, begs, sniffs
 verb.present.singular : resolves, prowls, self-flagellates, grovels, kneels, spits, sums, divides, multiplies, fruits, growls, affixes, ambulates
 verb.present.singular : manipulates, sculpts, fraternizes, vexes, flowers, nuzzles, peace-makes, flies, sprints, howls, illustrates, illuminates
-verb.present.singular : purrs, marries, frags
+verb.present.singular : purrs, marries, frags, slinks
 
 verb.progressive : harking, looking, wishing, finishing, exercising, revolving, arriving, hoisting, rendering, pardoning, liquifying
 verb.progressive : hydrating, offending, begging, sniffing, resolving, prowling, self-flagellating, groveling, kneeling, spitting
 verb.progressive : summing, dividing, multiplying, fruiting, growling, affixing, ambulating, pirating, manipulating, sculpting
 verb.progressive : fraternizing, bowling, vexing, flowering, nuzzling, peace-making, flying, rotoscoping, sprinting, howling
-verb.progressive : illustrating, illuminating, purring, marrying, fragging
+verb.progressive : illustrating, illuminating, purring, marrying, fragging, slinking
 
 vulgar.noun.singular : hell, $(? fuck frig frack feck fack sadfuck), shit, shitass, piss, $(? ass arse), $(? cock prick "skin flute"), bitch
 vulgar.noun.singular : minge, bastard, bloodclaat, clunge, tart, bong, nyash, thrussy, bollock, boner, candy-ass, gleet, "[REDACTED]"
@@ -194,6 +194,8 @@ sentence : "\0\s[0]I am The One Among Us. The Thing. Disgusting Disguise of Life
 sentence : "\0\s[0]The Frightened Ones are in need of prosthetic limbs and reconstructive surgery."
 
 sentence : "\0\s[0]War planes fly like artifical albatrosses, screaming and screeching through the sky. diving to earth, covered in oil."
+
+sentence : "\0\s[0]don't rub me too much or i might scream"
 
 sentence : "\0\s[0]I kissed a "${noun.singular}" and I "$(? 
     "liked it." 

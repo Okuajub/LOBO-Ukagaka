@@ -3,3 +3,4 @@ Jas Min
 Darren Welsh
 Milo Weiler
 Philipp Pilz
+Federico Di Dio
