@@ -1,0 +1,4586 @@
+[SHIORI/SAORI Adapter] Load finished.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET Version SHIORI/2.6
+Charset: UTF-8
+Sender: SSP
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Craftman: KawariDeveloperTeam
+ID: KAWARI.kdt
+Version: 8.2.8
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnLanguageChange
+Reference0: English
+Reference1: 1033
+Reference2: C:\Users\silve\Desktop\ssp_testingclient_2_6_4\data\language\english\
+Reference3: http://ssp.shillest.net/ukadoc/ssphelp/
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: 
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnInitialize
+Reference0: reload
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+Load at 1743885735
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: 
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: ownerghostname
+Reference0: lorem
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: basewareversion
+Reference0: 2.6.95
+Reference1: SSP
+Reference2: 2.6.95.3000
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: capability
+Reference0: request.status
+Reference1: request.securitylevel
+Reference10: response.age
+Reference11: response.x-sstp-passthru
+Reference12: response.valuenotify
+Reference13: response.securitylevel
+Reference14: response.requestcharset
+Reference2: request.baseid
+Reference3: request.sendertype
+Reference4: request.x-sstp-passthru
+Reference5: response.marker
+Reference6: response.markersend
+Reference7: response.errorlevel
+Reference8: response.errordescription
+Reference9: response.balloonoffset
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyOSInfo
+Reference0: WindowsNT,10.0,Windows 11 24H2.3476 (Ver.24H2) Wow64@x64
+Reference1: Intel,2592,0.6.7.6,bfebfbff
+Reference2: 16610796,4194176
+Reference3: 32471
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyInternationalInfo
+Reference0: 360
+Reference1: 1
+Reference2: US
+Reference3: en
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyFontInfo
+Reference0: Arial
+Reference1: Bahnschrift
+Reference10: Courier New
+Reference100: MS Mincho
+Reference101: ＭＳ 明朝
+Reference102: MS PMincho
+Reference103: ＭＳ Ｐ明朝
+Reference104: UD Digi Kyokasho N
+Reference105: UD デジタル 教科書体 N
+Reference106: UD Digi Kyokasho NP
+Reference107: UD デジタル 教科書体 NP
+Reference108: UD Digi Kyokasho NK
+Reference109: UD デジタル 教科書体 NK
+Reference11: Ebrima
+Reference110: Yu Mincho
+Reference111: 游明朝
+Reference112: SimSun-ExtG
+Reference113: ROG Fonts
+Reference114: Agency FB
+Reference115: Algerian
+Reference116: Book Antiqua
+Reference117: Arial Rounded MT
+Reference118: Baskerville Old Face
+Reference119: Bauhaus 93
+Reference12: Franklin Gothic
+Reference120: Bell MT
+Reference121: Bernard MT
+Reference122: Bodoni MT
+Reference123: Bodoni MT Poster
+Reference124: Bookman Old Style
+Reference125: Bradley Hand ITC
+Reference126: Britannic
+Reference127: Berlin Sans FB
+Reference128: Broadway
+Reference129: Brush Script MT
+Reference13: Gabriola
+Reference130: Bookshelf Symbol 7
+Reference131: Californian FB
+Reference132: Calisto MT
+Reference133: Castellar
+Reference134: Century Schoolbook
+Reference135: Centaur
+Reference136: Century
+Reference137: Chiller
+Reference138: Colonna MT
+Reference139: Cooper
+Reference14: Gadugi
+Reference140: Copperplate Gothic
+Reference141: Curlz MT
+Reference142: Dubai
+Reference143: Elephant
+Reference144: Engravers MT
+Reference145: Eras ITC
+Reference146: Felix Titling
+Reference147: Forte
+Reference148: Franklin Gothic Book
+Reference149: Freestyle Script
+Reference15: Georgia
+Reference150: French Script MT
+Reference151: Footlight MT
+Reference152: Garamond
+Reference153: Gigi
+Reference154: Gill Sans MT
+Reference155: Gill Sans
+Reference156: Gloucester MT
+Reference157: Century Gothic
+Reference158: Goudy Old Style
+Reference159: Goudy Stout
+Reference16: Impact
+Reference160: Harlow Solid
+Reference161: Harrington
+Reference162: Haettenschweiler
+Reference163: High Tower Text
+Reference164: Imprint MT Shadow
+Reference165: Informal Roman
+Reference166: Blackadder ITC
+Reference167: Edwardian Script ITC
+Reference168: Kristen ITC
+Reference169: Jokerman
+Reference17: Ink Free
+Reference170: Juice ITC
+Reference171: Kunstler Script
+Reference172: Wide Latin
+Reference173: Lucida Bright
+Reference174: Lucida Calligraphy
+Reference175: Lucida Fax
+Reference176: Lucida Handwriting
+Reference177: Lucida Sans
+Reference178: Lucida Sans Typewriter
+Reference179: Magneto
+Reference18: Javanese Text
+Reference180: Maiandra GD
+Reference181: Matura MT Script Capitals
+Reference182: Mistral
+Reference183: Modern No. 20
+Reference184: Monotype Corsiva
+Reference185: MT Extra
+Reference186: Niagara Engraved
+Reference187: Niagara Solid
+Reference188: OCR A
+Reference189: Old English Text MT
+Reference19: Leelawadee UI
+Reference190: Onyx
+Reference191: MS Outlook
+Reference192: Palace Script MT
+Reference193: Papyrus
+Reference194: Parchment
+Reference195: Perpetua
+Reference196: Perpetua Titling MT
+Reference197: Playbill
+Reference198: Poor Richard
+Reference199: Pristina
+Reference2: Calibri
+Reference20: Lucida Console
+Reference200: Rage
+Reference201: Ravie
+Reference202: MS Reference Sans Serif
+Reference203: MS Reference Specialty
+Reference204: Rockwell
+Reference205: Script MT
+Reference206: Showcard Gothic
+Reference207: Snap ITC
+Reference208: Stencil
+Reference209: Tw Cen MT
+Reference21: Lucida Sans Unicode
+Reference210: Tempus Sans ITC
+Reference211: Viner Hand ITC
+Reference212: Vivaldi
+Reference213: Vladimir Script
+Reference214: Wingdings 2
+Reference215: Wingdings 3
+Reference216: Arial Unicode MS
+Reference217: David CLM
+Reference218: Liberation Mono
+Reference219: Carlito
+Reference22: Malgun Gothic
+Reference220: Source Sans Pro
+Reference221: Alef
+Reference222: Amiri
+Reference223: Scheherazade
+Reference224: Reem Kufi
+Reference225: OpenSymbol
+Reference226: Gentium Basic
+Reference227: Caladea
+Reference228: Noto Kufi Arabic
+Reference229: Linux Biolinum G
+Reference23: ?? ??
+Reference230: David Libre
+Reference231: DejaVu Math TeX Gyre
+Reference232: Liberation Sans
+Reference233: Amiri Quran
+Reference234: David CLM BoldItalic
+Reference235: David CLM MediumItalic
+Reference236: Frank Ruehl CLM
+Reference237: Frank Ruehl CLM BoldOblique
+Reference238: Frank Ruehl CLM MediumOblique
+Reference239: Miriam CLM
+Reference24: Microsoft Himalaya
+Reference240: ????
+Reference241: Miriam Mono CLM
+Reference242: Miriam Mono CLM BoldOblique
+Reference243: Nachlieli CLM
+Reference244: Nachlieli CLM BoldOblique
+Reference245: Nachlieli CLM LightOblique
+Reference246: DejaVu Sans
+Reference247: DejaVu Sans Mono
+Reference248: DejaVu Serif
+Reference249: Gentium Book Basic
+Reference25: Microsoft JhengHei
+Reference250: Liberation Serif
+Reference251: Linux Libertine Display G
+Reference252: Linux Libertine G
+Reference253: Frank Ruhl Hofshi
+Reference254: Miriam Libre
+Reference255: Rubik
+Reference256: Noto Mono
+Reference257: Noto Naskh Arabic
+Reference258: Noto Naskh Arabic UI
+Reference259: Noto Sans
+Reference26: 微軟正黑體
+Reference260: Noto Sans Arabic
+Reference261: Noto Sans Arabic UI
+Reference262: Noto Sans Armenian
+Reference263: Noto Sans Georgian
+Reference264: Noto Sans Hebrew
+Reference265: Noto Sans Lao
+Reference266: Noto Sans Lisu
+Reference267: Noto Serif
+Reference268: Noto Serif Armenian
+Reference269: Noto Serif Georgian
+Reference27: Microsoft JhengHei UI
+Reference270: Noto Serif Hebrew
+Reference271: Noto Serif Lao
+Reference272: Cascadia Code
+Reference273: Cascadia Mono
+Reference274: Unispace
+Reference275: Lato
+Reference276: Marlett
+Reference277: Noto Color Emoji
+Reference278: Fira Code
+Reference279: Fira Code Retina
+Reference28: Microsoft New Tai Lue
+Reference280: FOT-OedKtr Std E
+Reference281: FOT-大江戸勘亭流 Std E
+Reference282: DFPKanTeiRyu-XB
+Reference283: ＤＦＰ勘亭流
+Reference284: Rounded Mplus 1c
+Reference285: System
+Reference286: Terminal
+Reference287: FixedSys
+Reference288: Modern
+Reference289: Roman
+Reference29: Microsoft PhagsPa
+Reference290: Script
+Reference291: Courier
+Reference292: MS Serif
+Reference293: MS Sans Serif
+Reference294: Small Fonts
+Reference295: Arial Black
+Reference296: Bahnschrift Light
+Reference297: Bahnschrift SemiLight
+Reference298: Bahnschrift SemiBold
+Reference299: Bahnschrift Light SemiCondensed
+Reference3: Cambria
+Reference30: Microsoft Sans Serif
+Reference300: Bahnschrift SemiLight SemiConde
+Reference301: Bahnschrift SemiCondensed
+Reference302: Bahnschrift SemiBold SemiConden
+Reference303: Bahnschrift Light Condensed
+Reference304: Bahnschrift SemiLight Condensed
+Reference305: Bahnschrift Condensed
+Reference306: Bahnschrift SemiBold Condensed
+Reference307: Calibri Light
+Reference308: Candara Light
+Reference309: Corbel Light
+Reference31: Microsoft Tai Le
+Reference310: Franklin Gothic Medium
+Reference311: Leelawadee UI Semilight
+Reference312: Malgun Gothic Semilight
+Reference313: Microsoft JhengHei Light
+Reference314: Microsoft JhengHei UI Light
+Reference315: Microsoft YaHei Light
+Reference316: Microsoft YaHei UI Light
+Reference317: Nirmala UI Semilight
+Reference318: Nirmala Text Semilight
+Reference319: Segoe UI Black
+Reference32: Microsoft YaHei
+Reference320: Segoe UI Light
+Reference321: Segoe UI Semibold
+Reference322: Segoe UI Semilight
+Reference323: Segoe UI Variable Small Light
+Reference324: Segoe UI Variable Small Semilig
+Reference325: Segoe UI Variable Small Semibol
+Reference326: Segoe UI Variable Text Light
+Reference327: Segoe UI Variable Text Semiligh
+Reference328: Segoe UI Variable Text Semibold
+Reference329: Segoe UI Variable Display Light
+Reference33: 微?雅黑
+Reference330: Segoe UI Variable Display Semil
+Reference331: Segoe UI Variable Display Semib
+Reference332: Sitka Small Semibold
+Reference333: Sitka Text Semibold
+Reference334: Sitka Subheading Semibold
+Reference335: Sitka Heading Semibold
+Reference336: Sitka Display Semibold
+Reference337: Sitka Banner Semibold
+Reference338: Yu Gothic UI Semibold
+Reference339: 游ゴシック Light
+Reference34: Microsoft YaHei UI
+Reference340: Yu Gothic UI Light
+Reference341: 游ゴシック Medium
+Reference342: Yu Gothic UI Semilight
+Reference343: BIZ UD明朝 Medium
+Reference344: BIZ UDP明朝 Medium
+Reference345: 游明朝 Demibold
+Reference346: 游明朝 Light
+Reference347: Arial Narrow
+Reference348: Arial Rounded MT Bold
+Reference349: Bernard MT Condensed
+Reference35: Microsoft Yi Baiti
+Reference350: Bodoni MT Black
+Reference351: Bodoni MT Condensed
+Reference352: Bodoni MT Poster Compressed
+Reference353: Britannic Bold
+Reference354: Berlin Sans FB Demi
+Reference355: Cooper Black
+Reference356: Copperplate Gothic Bold
+Reference357: Copperplate Gothic Light
+Reference358: Dubai Light
+Reference359: Dubai Medium
+Reference36: MingLiU-ExtB
+Reference360: Eras Bold ITC
+Reference361: Eras Demi ITC
+Reference362: Eras Light ITC
+Reference363: Eras Medium ITC
+Reference364: Franklin Gothic Demi
+Reference365: Franklin Gothic Demi Cond
+Reference366: Franklin Gothic Heavy
+Reference367: Franklin Gothic Medium Cond
+Reference368: Footlight MT Light
+Reference369: Gill Sans MT Condensed
+Reference37: 細明體-ExtB
+Reference370: Gill Sans Ultra Bold Condensed
+Reference371: Gill Sans Ultra Bold
+Reference372: Gloucester MT Extra Condensed
+Reference373: Gill Sans MT Ext Condensed Bold
+Reference374: Harlow Solid Italic
+Reference375: OCR A Extended
+Reference376: Rage Italic
+Reference377: Rockwell Condensed
+Reference378: Rockwell Extra Bold
+Reference379: Script MT Bold
+Reference38: PMingLiU-ExtB
+Reference380: Tw Cen MT Condensed
+Reference381: Tw Cen MT Condensed Extra Bold
+Reference382: Source Sans Pro Black
+Reference383: Liberation Sans Narrow
+Reference384: DejaVu Sans Light
+Reference385: DejaVu Sans Condensed
+Reference386: DejaVu Serif Condensed
+Reference387: Noto Sans Cond
+Reference388: Noto Sans Light
+Reference389: Noto Serif Cond
+Reference39: 新細明體-ExtB
+Reference390: Noto Serif Light
+Reference391: Source Sans Pro ExtraLight
+Reference392: Source Sans Pro Light
+Reference393: Source Sans Pro Semibold
+Reference394: Cascadia Code ExtraLight
+Reference395: Cascadia Code Light
+Reference396: Cascadia Code SemiLight
+Reference397: Cascadia Code SemiBold
+Reference398: Cascadia Mono ExtraLight
+Reference399: Cascadia Mono Light
+Reference4: Cambria Math
+Reference40: MingLiU_HKSCS-ExtB
+Reference400: Cascadia Mono SemiLight
+Reference401: Cascadia Mono SemiBold
+Reference402: Lato Light
+Reference403: Lato Semibold
+Reference404: Fira Code Light
+Reference405: Fira Code Medium
+Reference406: Fira Code SemiBold
+Reference407: Rounded Mplus 1c Medium
+Reference41: 細明體_HKSCS-ExtB
+Reference42: MingLiU_MSCS-ExtB
+Reference43: 細明體_MSCS-ExtB
+Reference44: Mongolian Baiti
+Reference45: MS Gothic
+Reference46: ＭＳ ゴシック
+Reference47: MS UI Gothic
+Reference48: MS PGothic
+Reference49: ＭＳ Ｐゴシック
+Reference5: Candara
+Reference50: MV Boli
+Reference51: Myanmar Text
+Reference52: Nirmala UI
+Reference53: Nirmala Text
+Reference54: Palatino Linotype
+Reference55: Sans Serif Collection
+Reference56: Segoe Fluent Icons
+Reference57: Segoe MDL2 Assets
+Reference58: Segoe Print
+Reference59: Segoe Script
+Reference6: Comic Sans MS
+Reference60: Segoe UI
+Reference61: Segoe UI Emoji
+Reference62: Segoe UI Historic
+Reference63: Segoe UI Symbol
+Reference64: Segoe UI Variable Small
+Reference65: Segoe UI Variable Text
+Reference66: Segoe UI Variable Display
+Reference67: SimSun
+Reference68: 宋体
+Reference69: NSimSun
+Reference7: Consolas
+Reference70: 新宋体
+Reference71: SimSun-ExtB
+Reference72: Sitka Small
+Reference73: Sitka Text
+Reference74: Sitka Subheading
+Reference75: Sitka Heading
+Reference76: Sitka Display
+Reference77: Sitka Banner
+Reference78: Sylfaen
+Reference79: Symbol
+Reference8: Constantia
+Reference80: Tahoma
+Reference81: Times New Roman
+Reference82: Trebuchet MS
+Reference83: Verdana
+Reference84: Webdings
+Reference85: Wingdings
+Reference86: Yu Gothic
+Reference87: 游ゴシック
+Reference88: Yu Gothic UI
+Reference89: BIZ UDGothic
+Reference9: Corbel
+Reference90: BIZ UDゴシック
+Reference91: BIZ UDPGothic
+Reference92: BIZ UDPゴシック
+Reference93: BIZ UDMincho
+Reference94: BIZ UD明朝
+Reference95: BIZ UDPMincho
+Reference96: BIZ UDP明朝
+Reference97: Meiryo
+Reference98: メイリオ
+Reference99: Meiryo UI
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifySelfInfo
+Reference0: LOBO
+Reference1: lorem
+Reference2: ipsum
+Reference3: Master
+Reference4: C:/Users/silve/Desktop/ssp_testingclient_2_6_4/ghost/Development/lobo_okua/shell/master/
+Reference5: WING of BAT
+Reference6: C:/Users/silve/Desktop/ssp_testingclient_2_6_4/balloon/wing_of_bat/
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyBalloonInfo
+Reference0: WING of BAT
+Reference1: C:/Users/silve/Desktop/ssp_testingclient_2_6_4/balloon/wing_of_bat/
+Reference2: 0:0,1,2,3 1:0,1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyShellInfo
+Reference0: Master
+Reference1: C:/Users/silve/Desktop/ssp_testingclient_2_6_4/ghost/Development/lobo_okua/shell/master/
+Reference2: 0,1,10,100,101
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyUserInfo
+Reference0: Okuajub
+Reference1: Okuajub
+Reference2: 1980,02,13
+Reference3: male
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+Load at 1743885735
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: otherghostname
+Reference0: Sentinel010
+SecurityLevel: local
+Sender: SSP
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: configuredbiffname
+Reference0: Gmail
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnDisplayChangeEx
+Reference0: init
+Reference1: 0,0,1920,1080,32,1,bottom,1032
+Reference2: -1920,-21,0,1059,32,0,bottom,1011
+Reference3: -1920,1059,-384,1923,32,0,bottom,1875
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnDisplayChange
+Reference0: 32
+Reference1: 1920
+Reference2: 1080
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNetworkStatusChange
+Reference0: online
+Reference1: 192.168.86.22
+Reference2: wifi
+Reference3: 866
+Reference4: 866
+Reference5: unrestricted
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTabletMode
+Reference0: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnDarkTheme
+Reference0: 1
+Reference1: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnRecycleBinStatusUpdate
+Reference0: 105
+Reference1: 34279203821
+Reference2: 0
+Reference3: 0
+Reference4: 1
+Reference5: lorem
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: ghostpathlist
+Reference0: C:\Users\silve\Desktop\ssp_testingclient_2_6_4\ghost\Development\
+Reference1: C:\Users\silve\Desktop\ssp_testingclient_2_6_4\ghost\Non-Development\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: balloonpathlist
+Reference0: C:\Users\silve\Desktop\ssp_testingclient_2_6_4\balloon\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: headlinepathlist
+Reference0: C:\Users\silve\Desktop\ssp_testingclient_2_6_4\headline\
+Reference1: C:\Users\silve\Desktop\ssp_testingclient_2_6_4\rss\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: pluginpathlist
+Reference0: C:\Users\silve\Desktop\ssp_testingclient_2_6_4\plugin\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: calendarskinpathlist
+Reference0: C:\Users\silve\Desktop\ssp_testingclient_2_6_4\calendar\skin\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: calendarpluginpathlist
+Reference0: C:\Users\silve\Desktop\ssp_testingclient_2_6_4\calendar\plugin\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSensorListUpdate
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSpeechSynthesisStatus
+Reference0: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnVoiceRecognitionStatus
+Reference0: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedsakuraname
+Reference0: Herlock Sholmes
+Reference1: 639C 灯花
+Reference10: Celeste
+Reference11: Charlie
+Reference12: Sentinel
+Reference13: Sentinel
+Reference14: 右
+Reference15: none
+Reference16: Demoman
+Reference17: Dog
+Reference18: Faeia
+Reference19: FLUX
+Reference2: Aairor
+Reference20: Galaxy Butterfly
+Reference21: Painting
+Reference22: YAYA Guide
+Reference23: Girl
+Reference24: Haezy
+Reference25: Hydrate
+Reference26: Visitor
+Reference27: kaiju
+Reference28: kaori
+Reference29: lorem
+Reference3: Aqua
+Reference30: Bird
+Reference31: Chaos and Order
+Reference32: Arneb
+Reference33: Lux
+Reference34: 和華
+Reference35: mark
+Reference36: Aaron
+Reference37: McDiamond
+Reference38: Lilick
+Reference39: MIKU
+Reference4: Aruto
+Reference40: Music Player
+Reference41: Cricket
+Reference42: Needle
+Reference43: Gatekeeper
+Reference44: Sirocco
+Reference45: Boss
+Reference46: Rotten
+Reference47: sakura_name
+Reference48: ベルフェ
+Reference49: Shigure
+Reference5: Aster
+Reference50: 華和梨
+Reference51: Simplicity
+Reference52: ancient-tablet
+Reference53: Snake
+Reference54: Angel
+Reference55: Star Reader
+Reference56: Starwarden
+Reference57: Taro
+Reference58: Styrmir
+Reference59: Team Snakemouth
+Reference6: Aster(?)
+Reference60: Nightengale
+Reference61: Sentinel
+Reference62: Azalea
+Reference63: hazel
+Reference64: 毒子
+Reference65: Vex
+Reference66: Jet
+Reference67: Harvey
+Reference68: ワトリー
+Reference69: X. Template
+Reference7: ATMT-X03R
+Reference70: Xaeyar
+Reference71: あやめ
+Reference72: うかくろっく0
+Reference73: かーちゃん
+Reference74: くろのん
+Reference75: さくら
+Reference76: しぇるずかん
+Reference77: 所長たん
+Reference78: ポカリ
+Reference79: ハヤト
+Reference8: Button
+Reference80: @hikarikitsune
+Reference81: 会員番号0000
+Reference82: まゆら
+Reference83: モニカ
+Reference84: らきあ
+Reference85: ちさ
+Reference86: 霊夢
+Reference87: さやめ
+Reference88: 匁
+Reference89: チュンチュン
+Reference9: ButtonToy
+Reference90: 雀卓
+Reference91: もえ
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedkeroname
+Reference0: and friends!
+Reference1: 灯油ゅう
+Reference10: Recordings
+Reference11: 
+Reference12: CHIPtest
+Reference13: CHIPtest
+Reference14: 左
+Reference15: none
+Reference16: NO
+Reference17: Duck
+Reference18: Tahir
+Reference19: Music
+Reference2: Empty
+Reference20: Starflower
+Reference21: Lil guy
+Reference22: 
+Reference23: Triangle
+Reference24: Daisy
+Reference25: You being healthier
+Reference26: 
+Reference27: attack
+Reference28: 
+Reference29: ipsum
+Reference3: Tuno Unyuu
+Reference30: None
+Reference31: 
+Reference32: None
+Reference33: Light
+Reference34: ぴーる
+Reference35: 0 twitch viewers
+Reference36: Casper
+Reference37: Float
+Reference38: Inus
+Reference39: 
+Reference4: White Unyuu
+Reference40: Tester
+Reference41: Kitties
+Reference42: 
+Reference43: Keymaster
+Reference44: none
+Reference45: 
+Reference46: Heartache
+Reference47: kero_name
+Reference48: アスモ
+Reference49: TeruTeruBozu
+Reference5: Side Panel
+Reference50: 里々
+Reference51: Template
+Reference52: none
+Reference53: Otacon
+Reference54: Pilot
+Reference55: 
+Reference56: Star
+Reference57: Bartender
+Reference58: 
+Reference59: Vi
+Reference6: ...
+Reference60: Scarborough
+Reference61: CHIPtest
+Reference62: Rotom
+Reference63: fiver
+Reference64: ほねゅう
+Reference65: none
+Reference66: 何
+Reference67: the screen
+Reference68: 失われた単語
+Reference69: Blank
+Reference7: それは存在していた
+Reference70: -
+Reference71: ホワ伊東
+Reference72: うかくろっく1
+Reference73: とーちゃん
+Reference74: 黒い糸
+Reference75: うにゅう
+Reference76: しおりはあかり
+Reference77: ばぐたん
+Reference78: ルル
+Reference79: -
+Reference8: n/a
+Reference80: 
+Reference81: 会員番号0001
+Reference82: うにゅう
+Reference83: ネクスタ
+Reference84: ほしうにゅう
+Reference85: 
+Reference86: 魔理沙
+Reference87: コマ伊貫
+Reference88: none
+Reference89: none
+Reference9: 
+Reference90: none
+Reference91: ねこ
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedghostname
+Reference0: 221B Baker Street
+Reference1: 639C 灯花
+Reference10: Celeste
+Reference11: Charlie
+Reference12: CHIPS Template
+Reference13: CHIPS Template
+Reference14: ＣＲＯＷと思考任意たん
+Reference15: D.N.Proxy/Sample
+Reference16: Demoman
+Reference17: Duck Overload
+Reference18: Faeia & Tahir
+Reference19: FLUX
+Reference2: Aairor
+Reference20: Galaxy Butterfly
+Reference21: Gallery 512
+Reference22: Ghost Guides
+Reference23: GT Template - Y Clean
+Reference24: hazy days
+Reference25: Hydrate
+Reference26: I Often Dream Of Marigolds
+Reference27: Kaiju Attack!! On the Ghost Front
+Reference28: kaori
+Reference29: LOBO
+Reference3: Aqua
+Reference30: Long Leg Bird (with top hat)
+Reference31: Lost in the sea of stars
+Reference32: Lunar Leporidae
+Reference33: Lux
+Reference34: Ｌｖ１
+Reference35: Mark
+Reference36: Maximus The Cat
+Reference37: MC DIAMOND
+Reference38: MesoMeso
+Reference39: MIKUさんDay's
+Reference4: Aruto with White Unyuu
+Reference40: Music Player tester
+Reference41: Nanika Atsume
+Reference42: Needle
+Reference43: OpenKEEPS
+Reference44: Party Parrot
+Reference45: Please arrive 15 minutes before your scheduled interview time
+Reference46: r o t t e n h e a v e n
+Reference47: Rosalind_Template
+Reference48: Saboteur
+Reference49: Shigure
+Reference5: Aster? Assistant Software
+Reference50: SHIORIES
+Reference51: Simplicity Template
+Reference52: simultaneous-interpreter
+Reference53: Snake and Otacon
+Reference54: SSP Angel
+Reference55: Star Reader
+Reference56: Starwarden
+Reference57: Stumbling talk
+Reference58: Styrmir
+Reference59: Team Snakemouth
+Reference6: Aster? Terror Star!
+Reference60: The Great Northern
+Reference61: The Peace Pack
+Reference62: The Poke!Partner Beta
+Reference63: The Shining Wire
+Reference64: THE TOXIC WALTZ
+Reference65: Vex
+Reference66: Watchdog Banch?
+Reference67: Watching Static
+Reference68: WordList
+Reference69: X. Template YAYA - v1.1.7
+Reference7: AutoMaton
+Reference70: Xander's Refuge
+Reference71: あやめＲとホワ伊東
+Reference72: うかくろっく
+Reference73: かーちゃん見てるからね
+Reference74: くろくろくろのん
+Reference75: さくら
+Reference76: しぇるずかん
+Reference77: とらぶる☆ばぐとらっく
+Reference78: ハッピー☆ダイス
+Reference79: ハヤト
+Reference8: Big Red Button
+Reference80: ヒカリキツネ@hikarikitsune
+Reference81: ぺっとせいかつ
+Reference82: まゆら＆黒うにゅう
+Reference83: モニカ＆ネクスタ
+Reference84: らきあ with ほしうにゅう
+Reference85: 大人しいちさ
+Reference86: 東方遊撃姫
+Reference87: 紺野さやめ - YAYA as SAORI -
+Reference88: 花いちもんめ
+Reference89: 雀-チュンチュン
+Reference9: ButtonToy
+Reference90: 雀々BARIBARI
+Reference91: 音楽プレーヤーサンプル
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedballoonname
+Reference0: ＋Windows風味Ⅳ
+Reference1: Al Tsukimi -Night-
+Reference10: Carnival on Quack
+Reference11: Cat Paws
+Reference12: Cat's Box
+Reference13: Closed Solar Captions
+Reference14: Closed Solar Captions
+Reference15: Connected Stars
+Reference16: Demobubble
+Reference17: EVEsystemII
+Reference18: Fading Like A Dream
+Reference19: Flip of a Coin
+Reference2: Angelbox
+Reference20: Green n' Blue
+Reference21: H2O
+Reference22: Hareraiser
+Reference23: hunter and smoker
+Reference24: I Come In Peace
+Reference25: I Come In Peace (Translated)
+Reference26: Maximus' Balloon
+Reference27: mcdballon
+Reference28: MIKUさんDay's Default
+Reference29: Minecraft Book
+Reference3: Apple II Desktop
+Reference30: Needloon
+Reference31: Notes
+Reference32: Ocean Fishies
+Reference33: Open Exhibition
+Reference34: Simplicity Balloon
+Reference35: snowblind.
+Reference36: SSPデフォルト+
+Reference37: Star Cloud
+Reference38: Star Cloud - Blue
+Reference39: StarClan
+Reference4: Aster Tooltip (Side ?)
+Reference40: Stardust
+Reference41: Stitched Together
+Reference42: Stuck to a Filing Cabinet
+Reference43: The Great Dialogue Box
+Reference44: Twinkling Galaxy Hues
+Reference45: Weather Cloud
+Reference46: WING of BAT
+Reference47: wiz
+Reference48: X. Template Balloon
+Reference49: こねこのみるゆめ
+Reference5: Aster Tooltip (Side A)
+Reference50: ちびねこ
+Reference51: ねここ専用３
+Reference52: ねことうさぎ-blue-
+Reference53: ねことうさぎ-green-
+Reference54: ねことうさぎ-pink-
+Reference55: ねことねずみ
+Reference56: ふきだし７・すぷらしゅすたー
+Reference57: 偽SSPバルーン
+Reference58: 唯白 - Yui Siro -
+Reference59: 東方話流雲
+Reference6: Aster Tooltip (Side B)
+Reference60: 青猫、夜の街を歩く
+Reference7: Balloon for Emily/P4
+Reference8: Balloons Balloon
+Reference9: Black & White 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedshellname
+Reference0: Master
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedheadlinename
+Reference0: Current Watches, Warnings and Advisories for the United States Issued by the National Weather Service
+Reference1: GAME Watch
+Reference2: Google ニュース 日本語版
+Reference3: ITMedia News
+Reference4: PC Watch
+Reference5: Polygon - All
+Reference6: スラド
+Reference7: ねとらぼ
+Reference8: 回収・無償修理等のお知らせ
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedplugin
+Reference0: BalloonMakerD087D640-2F82-11DD-E1AC-90009E101CFE
+Reference1: BATON/TOUCH869EF13C1-66F8-4A5B-5DA2-E41236831166
+Reference2: SwissArmyKnife8F8BCFB8-B27A-456f-9BA0-551484856DDC
+Reference3: 共有変数プラグインABED14AF-F34B-4ff2-95B7-30ED37D5802D
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyDressupInfo
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: uniqueid
+Reference0: ssp_fmo_header_0000abb0_0037061c
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: hwnd
+Reference0: 36060443148194
+Reference1: 47854164392488
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: CHIPS TemplateSentinelCHIPtest2779542829.327179boot
+Reference1: うかくろっくうかくろっく0うかくろっく1315785417.779840install
+Reference10: hazy daysHaezyDaisy839421.211466install
+Reference11: Nanika AtsumeCricketKitties2033161.019082install
+Reference12: Simplicity TemplateSimplicityTemplate1132941.012321install
+Reference13: FLUXFLUXMusic631900.980359install
+Reference14: Watchdog Banch?Jet何5730700.943480install
+Reference15: Nanika Atsumeごしゅじんにゃんこ127640.849440install
+Reference16: モニカ＆ネクスタモニカネクスタ126190.804878install
+Reference17: ShigureShigureTeruTeruBozu325000.768306install
+Reference18: LuxLuxLight224810.762467install
+Reference19: MesoMesoLilickInus424230.744643install
+Reference2: LOBOloremipsum30283798.721507boot
+Reference20: Aruto with White UnyuuArutoWhite Unyuu1123700.728355install
+Reference21: CelesteCelesteRecordings221770.669041install
+Reference22: Team SnakemouthTeam SnakemouthVi119280.592518install
+Reference23: GT Template - Y CleanGirlTriangle1519070.586064install
+Reference24: kawari-testSentinelCHIPtest5319040.585142install
+Reference25: 雀-チュンチュンチュンチュンnone816520.507697install
+Reference26: Simplicity TemplateSimplicity Template1313090.402285install
+Reference27: NeedleNeedle1112700.390300install
+Reference28: MC DIAMONDMcDiamondFloat17120.218814install
+Reference29: X. Template YAYA - v1.1.7X. TemplateBlank16880.211438install
+Reference3: Aster? Terror Star!Aster(?)...14260418.002987install
+Reference30: The Peace PackSentinelCHIPtest25660.173945install
+Reference31: CharlieCharlie25580.171486install
+Reference32: Markmark0 twitch viewers64970.152739install
+Reference33: Snake and OtaconSnakeOtacon184370.134300install
+Reference34: THE TOXIC WALTZ毒子ほねゅう13980.122314install
+Reference35: Ghost GuidesYAYA Guide23220.098958install
+Reference36: The Poke!Partner ProgramPokeRotom42860.087894install
+Reference37: AairorAairorEmpty12510.077138install
+Reference38: HydrateHydrateYou being healthier82480.076216install
+Reference39: WanwanPochi-san何52020.062079install
+Reference4: The Great NorthernNightengaleScarborough26193815.956219install
+Reference40: Stumbling talkTaroBartender11420.043640install
+Reference41: ヒカリキツネ@hikarikitsune@hikarikitsune21180.036264install
+Reference42: Kaiju Attack!! On the Ghost Frontkaijuattack101130.034727install
+Reference43: CHIPS Template - testSentinelCHIPtest111100.033805install
+Reference44: 221B Baker StreetHerlock Sholmesand friends!2900.027659install
+Reference45: MIKUさんDay'sMIKU1900.027659install
+Reference46: DemomanDemomanNO1870.026737install
+Reference47: The Poke!Partner BetaAzaleaRotom1840.025815install
+Reference48: Aster? Assistant SoftwareAsterSide Panel2830.025508install
+Reference49: Gallery 512PaintingLil guy2740.022742install
+Reference5: Faeia & TahirFaeiaTahir12153504.717402install
+Reference6: 639C 灯花639C 灯花灯油ゅう896132.954292install
+Reference7: kawari-testCHIPtestnone4496002.950297install
+Reference8: Nanika AtsumeCricketKitties!565502.012963install
+Reference9: SSP AngelAngelPilot1458031.783393install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: -1
+Reference2: 0,0,483,393
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: -1
+Reference2: 1,-1,0,0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedsakuraname
+Reference0: Herlock Sholmes
+Reference1: 639C 灯花
+Reference10: Celeste
+Reference11: Charlie
+Reference12: Sentinel
+Reference13: Sentinel
+Reference14: 右
+Reference15: none
+Reference16: Demoman
+Reference17: Dog
+Reference18: Faeia
+Reference19: FLUX
+Reference2: Aairor
+Reference20: Galaxy Butterfly
+Reference21: Painting
+Reference22: YAYA Guide
+Reference23: Girl
+Reference24: Haezy
+Reference25: Hydrate
+Reference26: Visitor
+Reference27: kaiju
+Reference28: kaori
+Reference29: lorem
+Reference3: Aqua
+Reference30: Bird
+Reference31: Chaos and Order
+Reference32: Arneb
+Reference33: Lux
+Reference34: 和華
+Reference35: mark
+Reference36: Aaron
+Reference37: McDiamond
+Reference38: Lilick
+Reference39: MIKU
+Reference4: Aruto
+Reference40: Music Player
+Reference41: Cricket
+Reference42: Needle
+Reference43: Gatekeeper
+Reference44: Sirocco
+Reference45: Boss
+Reference46: Rotten
+Reference47: sakura_name
+Reference48: ベルフェ
+Reference49: Shigure
+Reference5: Aster
+Reference50: 華和梨
+Reference51: Simplicity
+Reference52: ancient-tablet
+Reference53: Snake
+Reference54: Angel
+Reference55: Star Reader
+Reference56: Starwarden
+Reference57: Taro
+Reference58: Styrmir
+Reference59: Team Snakemouth
+Reference6: Aster(?)
+Reference60: Nightengale
+Reference61: Sentinel
+Reference62: Azalea
+Reference63: hazel
+Reference64: 毒子
+Reference65: Vex
+Reference66: Jet
+Reference67: Harvey
+Reference68: ワトリー
+Reference69: X. Template
+Reference7: ATMT-X03R
+Reference70: Xaeyar
+Reference71: あやめ
+Reference72: うかくろっく0
+Reference73: かーちゃん
+Reference74: くろのん
+Reference75: さくら
+Reference76: しぇるずかん
+Reference77: 所長たん
+Reference78: ポカリ
+Reference79: ハヤト
+Reference8: Button
+Reference80: @hikarikitsune
+Reference81: 会員番号0000
+Reference82: まゆら
+Reference83: モニカ
+Reference84: らきあ
+Reference85: ちさ
+Reference86: 霊夢
+Reference87: さやめ
+Reference88: 匁
+Reference89: チュンチュン
+Reference9: ButtonToy
+Reference90: 雀卓
+Reference91: もえ
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedkeroname
+Reference0: and friends!
+Reference1: 灯油ゅう
+Reference10: Recordings
+Reference11: 
+Reference12: CHIPtest
+Reference13: CHIPtest
+Reference14: 左
+Reference15: none
+Reference16: NO
+Reference17: Duck
+Reference18: Tahir
+Reference19: Music
+Reference2: Empty
+Reference20: Starflower
+Reference21: Lil guy
+Reference22: 
+Reference23: Triangle
+Reference24: Daisy
+Reference25: You being healthier
+Reference26: 
+Reference27: attack
+Reference28: 
+Reference29: ipsum
+Reference3: Tuno Unyuu
+Reference30: None
+Reference31: 
+Reference32: None
+Reference33: Light
+Reference34: ぴーる
+Reference35: 0 twitch viewers
+Reference36: Casper
+Reference37: Float
+Reference38: Inus
+Reference39: 
+Reference4: White Unyuu
+Reference40: Tester
+Reference41: Kitties
+Reference42: 
+Reference43: Keymaster
+Reference44: none
+Reference45: 
+Reference46: Heartache
+Reference47: kero_name
+Reference48: アスモ
+Reference49: TeruTeruBozu
+Reference5: Side Panel
+Reference50: 里々
+Reference51: Template
+Reference52: none
+Reference53: Otacon
+Reference54: Pilot
+Reference55: 
+Reference56: Star
+Reference57: Bartender
+Reference58: 
+Reference59: Vi
+Reference6: ...
+Reference60: Scarborough
+Reference61: CHIPtest
+Reference62: Rotom
+Reference63: fiver
+Reference64: ほねゅう
+Reference65: none
+Reference66: 何
+Reference67: the screen
+Reference68: 失われた単語
+Reference69: Blank
+Reference7: それは存在していた
+Reference70: -
+Reference71: ホワ伊東
+Reference72: うかくろっく1
+Reference73: とーちゃん
+Reference74: 黒い糸
+Reference75: うにゅう
+Reference76: しおりはあかり
+Reference77: ばぐたん
+Reference78: ルル
+Reference79: -
+Reference8: n/a
+Reference80: 
+Reference81: 会員番号0001
+Reference82: うにゅう
+Reference83: ネクスタ
+Reference84: ほしうにゅう
+Reference85: 
+Reference86: 魔理沙
+Reference87: コマ伊貫
+Reference88: none
+Reference89: none
+Reference9: 
+Reference90: none
+Reference91: ねこ
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedghostname
+Reference0: 221B Baker Street
+Reference1: 639C 灯花
+Reference10: Celeste
+Reference11: Charlie
+Reference12: CHIPS Template
+Reference13: CHIPS Template
+Reference14: ＣＲＯＷと思考任意たん
+Reference15: D.N.Proxy/Sample
+Reference16: Demoman
+Reference17: Duck Overload
+Reference18: Faeia & Tahir
+Reference19: FLUX
+Reference2: Aairor
+Reference20: Galaxy Butterfly
+Reference21: Gallery 512
+Reference22: Ghost Guides
+Reference23: GT Template - Y Clean
+Reference24: hazy days
+Reference25: Hydrate
+Reference26: I Often Dream Of Marigolds
+Reference27: Kaiju Attack!! On the Ghost Front
+Reference28: kaori
+Reference29: LOBO
+Reference3: Aqua
+Reference30: Long Leg Bird (with top hat)
+Reference31: Lost in the sea of stars
+Reference32: Lunar Leporidae
+Reference33: Lux
+Reference34: Ｌｖ１
+Reference35: Mark
+Reference36: Maximus The Cat
+Reference37: MC DIAMOND
+Reference38: MesoMeso
+Reference39: MIKUさんDay's
+Reference4: Aruto with White Unyuu
+Reference40: Music Player tester
+Reference41: Nanika Atsume
+Reference42: Needle
+Reference43: OpenKEEPS
+Reference44: Party Parrot
+Reference45: Please arrive 15 minutes before your scheduled interview time
+Reference46: r o t t e n h e a v e n
+Reference47: Rosalind_Template
+Reference48: Saboteur
+Reference49: Shigure
+Reference5: Aster? Assistant Software
+Reference50: SHIORIES
+Reference51: Simplicity Template
+Reference52: simultaneous-interpreter
+Reference53: Snake and Otacon
+Reference54: SSP Angel
+Reference55: Star Reader
+Reference56: Starwarden
+Reference57: Stumbling talk
+Reference58: Styrmir
+Reference59: Team Snakemouth
+Reference6: Aster? Terror Star!
+Reference60: The Great Northern
+Reference61: The Peace Pack
+Reference62: The Poke!Partner Beta
+Reference63: The Shining Wire
+Reference64: THE TOXIC WALTZ
+Reference65: Vex
+Reference66: Watchdog Banch?
+Reference67: Watching Static
+Reference68: WordList
+Reference69: X. Template YAYA - v1.1.7
+Reference7: AutoMaton
+Reference70: Xander's Refuge
+Reference71: あやめＲとホワ伊東
+Reference72: うかくろっく
+Reference73: かーちゃん見てるからね
+Reference74: くろくろくろのん
+Reference75: さくら
+Reference76: しぇるずかん
+Reference77: とらぶる☆ばぐとらっく
+Reference78: ハッピー☆ダイス
+Reference79: ハヤト
+Reference8: Big Red Button
+Reference80: ヒカリキツネ@hikarikitsune
+Reference81: ぺっとせいかつ
+Reference82: まゆら＆黒うにゅう
+Reference83: モニカ＆ネクスタ
+Reference84: らきあ with ほしうにゅう
+Reference85: 大人しいちさ
+Reference86: 東方遊撃姫
+Reference87: 紺野さやめ - YAYA as SAORI -
+Reference88: 花いちもんめ
+Reference89: 雀-チュンチュン
+Reference9: ButtonToy
+Reference90: 雀々BARIBARI
+Reference91: 音楽プレーヤーサンプル
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedballoonname
+Reference0: ＋Windows風味Ⅳ
+Reference1: Al Tsukimi -Night-
+Reference10: Carnival on Quack
+Reference11: Cat Paws
+Reference12: Cat's Box
+Reference13: Closed Solar Captions
+Reference14: Closed Solar Captions
+Reference15: Connected Stars
+Reference16: Demobubble
+Reference17: EVEsystemII
+Reference18: Fading Like A Dream
+Reference19: Flip of a Coin
+Reference2: Angelbox
+Reference20: Green n' Blue
+Reference21: H2O
+Reference22: Hareraiser
+Reference23: hunter and smoker
+Reference24: I Come In Peace
+Reference25: I Come In Peace (Translated)
+Reference26: Maximus' Balloon
+Reference27: mcdballon
+Reference28: MIKUさんDay's Default
+Reference29: Minecraft Book
+Reference3: Apple II Desktop
+Reference30: Needloon
+Reference31: Notes
+Reference32: Ocean Fishies
+Reference33: Open Exhibition
+Reference34: Simplicity Balloon
+Reference35: snowblind.
+Reference36: SSPデフォルト+
+Reference37: Star Cloud
+Reference38: Star Cloud - Blue
+Reference39: StarClan
+Reference4: Aster Tooltip (Side ?)
+Reference40: Stardust
+Reference41: Stitched Together
+Reference42: Stuck to a Filing Cabinet
+Reference43: The Great Dialogue Box
+Reference44: Twinkling Galaxy Hues
+Reference45: Weather Cloud
+Reference46: WING of BAT
+Reference47: wiz
+Reference48: X. Template Balloon
+Reference49: こねこのみるゆめ
+Reference5: Aster Tooltip (Side A)
+Reference50: ちびねこ
+Reference51: ねここ専用３
+Reference52: ねことうさぎ-blue-
+Reference53: ねことうさぎ-green-
+Reference54: ねことうさぎ-pink-
+Reference55: ねことねずみ
+Reference56: ふきだし７・すぷらしゅすたー
+Reference57: 偽SSPバルーン
+Reference58: 唯白 - Yui Siro -
+Reference59: 東方話流雲
+Reference6: Aster Tooltip (Side B)
+Reference60: 青猫、夜の街を歩く
+Reference7: Balloon for Emily/P4
+Reference8: Balloons Balloon
+Reference9: Black & White 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedheadlinename
+Reference0: Current Watches, Warnings and Advisories for the United States Issued by the National Weather Service
+Reference1: GAME Watch
+Reference2: Google ニュース 日本語版
+Reference3: ITMedia News
+Reference4: PC Watch
+Reference5: Polygon - All
+Reference6: スラド
+Reference7: ねとらぼ
+Reference8: 回収・無償修理等のお知らせ
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedplugin
+Reference0: BalloonMakerD087D640-2F82-11DD-E1AC-90009E101CFE
+Reference1: BATON/TOUCH869EF13C1-66F8-4A5B-5DA2-E41236831166
+Reference2: SwissArmyKnife8F8BCFB8-B27A-456f-9BA0-551484856DDC
+Reference3: 共有変数プラグインABED14AF-F34B-4ff2-95B7-30ED37D5802D
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedshellname
+Reference0: Master
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOSUpdateInfo
+Reference0: 2025,4,5,11,27,36
+Reference1: 2025,4,5,11,25,57
+Reference2: success000000002025,4,5,11,25,57Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.427.82.0) - Current Channel (Broad)
+Reference3: success000000002025,3,21,0,38,52ASUSTeK COMPUTER INC. - System - 3.1.43.0
+Reference4: success000000002025,3,13,18,32,572025-03 Cumulative Update for Windows 11 Version 24H2 for x64-based Systems (KB5053598)
+Reference5: success000000002025,2,18,1,48,2ASUSTeK COMPUTER INC. - System - 3.1.41.0
+Reference6: success000000002025,2,14,1,19,36Windows Malicious Software Removal Tool x64 - v5.132 (KB890830)
+Reference7: success000000002025,2,14,1,14,322025-02 Cumulative Update for Windows 11 Version 24H2 for x64-based Systems (KB5051987)
+Reference8: success000000002025,2,3,22,52,18NVIDIA - Display - 32.0.15.5599
+Reference9: success000000002025,1,28,21,23,9Windows 11, version 24H2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \![raise,OnNeedlePoke,0,syringe]\e
+Reference1: 
+Reference2: 
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \![raise,OnNeedlePoke,0,syringe]\e
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNeedlePoke
+Reference0: 0
+Reference1: syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[1]Bastard[REDACTED] $&@!!! \0\s[0]What the tart, Shinji? A shitassing syringe?
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[1]Bastard[REDACTED] $&@!!! \0\s[0]What the tart, Shinji? A shitassing syringe?
+Reference1: 
+Reference2: OnNeedlePoke
+Reference3: 0syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[1]Bastard[REDACTED] $&@!!! \0\s[0]What the tart, Shinji? A shitassing syringe?
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 1
+Reference1: -1
+Reference2: 0,1,483,393
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: -1
+Reference2: 0,0,483,393
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \![raise,OnNeedlePoke,0,syringe]\e
+Reference1: 
+Reference2: 
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \![raise,OnNeedlePoke,0,syringe]\e
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNeedlePoke
+Reference0: 0
+Reference1: syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]'Tis but a scratch.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]'Tis but a scratch.
+Reference1: 
+Reference2: OnNeedlePoke
+Reference3: 0syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]'Tis but a scratch.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \![raise,OnNeedlePoke,0,syringe]\e
+Reference1: 
+Reference2: 
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \![raise,OnNeedlePoke,0,syringe]\e
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNeedlePoke
+Reference0: 0
+Reference1: syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[1]\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]RYAAEEUUUUOOUGROHUUEEYAYYIIOIEGREEEOOEEUUAAUUIIUAEAORHGGUGHHROARRUGYAGGYAAIIAAIIAAYEIOHIEGOH!!!\_w[1000]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[1]\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]RYAAEEUUUUOOUGROHUUEEYAYYIIOIEGREEEOOEEUUAAUUIIUAEAORHGGUGHHROARRUGYAGGYAAIIAAIIAAYEIOHIEGOH!!!\_w[1000]\0\s[0]
+Reference1: 
+Reference2: OnNeedlePoke
+Reference3: 0syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[1]\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]RYAAEEUUUUOOUGROHUUEEYAYYIIOIEGREEEOOEEUUAAUUIIUAEAORHGGUGHHROARRUGYAGGYAAIIAAIIAAYEIOHIEGOH!!!\_w[1000]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 1
+Reference1: -1
+Reference2: 0,1,483,393
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: -1
+Reference2: 0,0,483,393
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]There was a sniper in Hork.
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 54100114
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]There was a sniper in Hork.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 15
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: -1
+Reference1: -1
+Reference2: online
+Reference3: no_battery
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: CHIPS TemplateSentinelCHIPtest2779542929.327306boot
+Reference1: うかくろっくうかくろっく0うかくろっく1315785417.779731install
+Reference10: hazy daysHaezyDaisy839421.211458install
+Reference11: Nanika AtsumeCricketKitties2033161.019075install
+Reference12: Simplicity TemplateSimplicityTemplate1132941.012314install
+Reference13: FLUXFLUXMusic631900.980353install
+Reference14: Watchdog Banch?Jet何5730700.943475install
+Reference15: Nanika Atsumeごしゅじんにゃんこ127640.849434install
+Reference16: モニカ＆ネクスタモニカネクスタ126190.804873install
+Reference17: ShigureShigureTeruTeruBozu325000.768302install
+Reference18: LuxLuxLight224810.762463install
+Reference19: MesoMesoLilickInus424230.744638install
+Reference2: LOBOloremipsum30283808.721761boot
+Reference20: Aruto with White UnyuuArutoWhite Unyuu1123700.728350install
+Reference21: CelesteCelesteRecordings221770.669037install
+Reference22: Team SnakemouthTeam SnakemouthVi119280.592514install
+Reference23: GT Template - Y CleanGirlTriangle1519070.586061install
+Reference24: kawari-testSentinelCHIPtest5319040.585139install
+Reference25: 雀-チュンチュンチュンチュンnone816520.507694install
+Reference26: Simplicity TemplateSimplicity Template1313090.402283install
+Reference27: NeedleNeedle1112700.390297install
+Reference28: MC DIAMONDMcDiamondFloat17120.218812install
+Reference29: X. Template YAYA - v1.1.7X. TemplateBlank16880.211437install
+Reference3: Aster? Terror Star!Aster(?)...14260418.002938install
+Reference30: The Peace PackSentinelCHIPtest25660.173944install
+Reference31: CharlieCharlie25580.171485install
+Reference32: Markmark0 twitch viewers64970.152738install
+Reference33: Snake and OtaconSnakeOtacon184370.134299install
+Reference34: THE TOXIC WALTZ毒子ほねゅう13980.122314install
+Reference35: Ghost GuidesYAYA Guide23220.098957install
+Reference36: The Poke!Partner ProgramPokeRotom42860.087894install
+Reference37: AairorAairorEmpty12510.077137install
+Reference38: HydrateHydrateYou being healthier82480.076216install
+Reference39: WanwanPochi-san何52020.062079install
+Reference4: The Great NorthernNightengaleScarborough26193815.956182install
+Reference40: Stumbling talkTaroBartender11420.043640install
+Reference41: ヒカリキツネ@hikarikitsune@hikarikitsune21180.036264install
+Reference42: Kaiju Attack!! On the Ghost Frontkaijuattack101130.034727install
+Reference43: CHIPS Template - testSentinelCHIPtest111100.033805install
+Reference44: 221B Baker StreetHerlock Sholmesand friends!2900.027659install
+Reference45: MIKUさんDay'sMIKU1900.027659install
+Reference46: DemomanDemomanNO1870.026737install
+Reference47: The Poke!Partner BetaAzaleaRotom1840.025815install
+Reference48: Aster? Assistant SoftwareAsterSide Panel2830.025508install
+Reference49: Gallery 512PaintingLil guy2740.022742install
+Reference5: Faeia & TahirFaeiaTahir12153504.717373install
+Reference6: 639C 灯花639C 灯花灯油ゅう896132.954274install
+Reference7: kawari-testCHIPtestnone4496002.950279install
+Reference8: Nanika AtsumeCricketKitties!565502.012950install
+Reference9: SSP AngelAngelPilot1458031.783382install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]Listen closely, to the beating of your heart. Does it drive you mad?
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410012
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]Listen closely, to the beating of your heart. Does it drive you mad?
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \![raise,OnNeedlePoke,0,syringe]\e
+Reference1: 
+Reference2: 
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \![raise,OnNeedlePoke,0,syringe]\e
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNeedlePoke
+Reference0: 0
+Reference1: syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[1]Cock boner @$!&#* bong thrussy!!! \0\s[0]What the ****, Lieutenant Anderson? A ****ing syringe?
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[1]Cock boner @$!&#* bong thrussy!!! \0\s[0]What the ****, Lieutenant Anderson? A ****ing syringe?
+Reference1: 
+Reference2: OnNeedlePoke
+Reference3: 0syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[1]Cock boner @$!&#* bong thrussy!!! \0\s[0]What the ****, Lieutenant Anderson? A ****ing syringe?
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 1
+Reference1: -1
+Reference2: 0,1,483,393
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \![raise,OnNeedlePoke,0,syringe]\e
+Reference1: 
+Reference2: 
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \![raise,OnNeedlePoke,0,syringe]\e
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNeedlePoke
+Reference0: 0
+Reference1: syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[1]\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]GRROUOHEUYERAHAAOOAAARHAUIGOEAAYIRAIYAARAHGIGUYEEUUEEUUAAYGAIHYRUGHRHAOIRYGRUHHURUAAOOEEOIOEIEUAEIIOGIRY!!!!!\_w[1000]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[1]\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]GRROUOHEUYERAHAAOOAAARHAUIGOEAAYIRAIYAARAHGIGUYEEUUEEUUAAYGAIHYRUGHRHAOIRYGRUHHURUAAOOEEOIOEIEUAEIIOGIRY!!!!!\_w[1000]\0\s[0]
+Reference1: 
+Reference2: OnNeedlePoke
+Reference3: 0syringe
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal,raise
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[1]\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]GRROUOHEUYERAHAAOOAAARHAUIGOEAAYIRAIYAARAHGIGUYEEUUEEUUAAYGAIHYRUGHRHAOIRYGRUHHURUAAOOEEOIOEIEUAEIIOGIRY!!!!!\_w[1000]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 5
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 6
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: -1
+Reference2: 0,0,483,393
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]Push on, digging, worming, into your organs and resign yourself: Sinner.
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410018
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]Push on, digging, worming, into your organs and resign yourself: Sinner.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 9
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 10
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: -1
+Reference1: -1
+Reference2: online
+Reference3: no_battery
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: CHIPS TemplateSentinelCHIPtest2779543029.327433boot
+Reference1: うかくろっくうかくろっく0うかくろっく1315785417.779622install
+Reference10: hazy daysHaezyDaisy839421.211451install
+Reference11: Nanika AtsumeCricketKitties2033161.019069install
+Reference12: Simplicity TemplateSimplicityTemplate1132941.012308install
+Reference13: FLUXFLUXMusic631900.980347install
+Reference14: Watchdog Banch?Jet何5730700.943469install
+Reference15: Nanika Atsumeごしゅじんにゃんこ127640.849429install
+Reference16: モニカ＆ネクスタモニカネクスタ126190.804868install
+Reference17: ShigureShigureTeruTeruBozu325000.768297install
+Reference18: LuxLuxLight224810.762458install
+Reference19: MesoMesoLilickInus424230.744633install
+Reference2: LOBOloremipsum30283818.722015boot
+Reference20: Aruto with White UnyuuArutoWhite Unyuu1123700.728346install
+Reference21: CelesteCelesteRecordings221770.669033install
+Reference22: Team SnakemouthTeam SnakemouthVi119280.592511install
+Reference23: GT Template - Y CleanGirlTriangle1519070.586057install
+Reference24: kawari-testSentinelCHIPtest5319040.585135install
+Reference25: 雀-チュンチュンチュンチュンnone816520.507691install
+Reference26: Simplicity TemplateSimplicity Template1313090.402280install
+Reference27: NeedleNeedle1112700.390295install
+Reference28: MC DIAMONDMcDiamondFloat17120.218811install
+Reference29: X. Template YAYA - v1.1.7X. TemplateBlank16880.211435install
+Reference3: Aster? Terror Star!Aster(?)...14260418.002889install
+Reference30: The Peace PackSentinelCHIPtest25660.173942install
+Reference31: CharlieCharlie25580.171484install
+Reference32: Markmark0 twitch viewers64970.152737install
+Reference33: Snake and OtaconSnakeOtacon184370.134298install
+Reference34: THE TOXIC WALTZ毒子ほねゅう13980.122313install
+Reference35: Ghost GuidesYAYA Guide23220.098957install
+Reference36: The Poke!Partner ProgramPokeRotom42860.087893install
+Reference37: AairorAairorEmpty12510.077137install
+Reference38: HydrateHydrateYou being healthier82480.076215install
+Reference39: WanwanPochi-san何52020.062078install
+Reference4: The Great NorthernNightengaleScarborough26193815.956146install
+Reference40: Stumbling talkTaroBartender11420.043639install
+Reference41: ヒカリキツネ@hikarikitsune@hikarikitsune21180.036264install
+Reference42: Kaiju Attack!! On the Ghost Frontkaijuattack101130.034727install
+Reference43: CHIPS Template - testSentinelCHIPtest111100.033805install
+Reference44: 221B Baker StreetHerlock Sholmesand friends!2900.027659install
+Reference45: MIKUさんDay'sMIKU1900.027659install
+Reference46: DemomanDemomanNO1870.026737install
+Reference47: The Poke!Partner BetaAzaleaRotom1840.025815install
+Reference48: Aster? Assistant SoftwareAsterSide Panel2830.025507install
+Reference49: Gallery 512PaintingLil guy2740.022742install
+Reference5: Faeia & TahirFaeiaTahir12153504.717344install
+Reference6: 639C 灯花639C 灯花灯油ゅう896132.954256install
+Reference7: kawari-testCHIPtestnone4496002.950260install
+Reference8: Nanika AtsumeCricketKitties!565502.012938install
+Reference9: SSP AngelAngelPilot1458031.783371install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]Hot air balloons, such an affront to dread.
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410010
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]Hot air balloons, such an affront to dread.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: -1
+Reference1: -1
+Reference2: online
+Reference3: no_battery
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: CHIPS TemplateSentinelCHIPtest2779543129.327560boot
+Reference1: うかくろっくうかくろっく0うかくろっく1315785417.779512install
+Reference10: hazy daysHaezyDaisy839421.211443install
+Reference11: Nanika AtsumeCricketKitties2033161.019063install
+Reference12: Simplicity TemplateSimplicityTemplate1132941.012302install
+Reference13: FLUXFLUXMusic631900.980341install
+Reference14: Watchdog Banch?Jet何5730700.943463install
+Reference15: Nanika Atsumeごしゅじんにゃんこ127640.849424install
+Reference16: モニカ＆ネクスタモニカネクスタ126190.804863install
+Reference17: ShigureShigureTeruTeruBozu325000.768292install
+Reference18: LuxLuxLight224810.762453install
+Reference19: MesoMesoLilickInus424230.744629install
+Reference2: LOBOloremipsum30283828.722268boot
+Reference20: Aruto with White UnyuuArutoWhite Unyuu1123700.728341install
+Reference21: CelesteCelesteRecordings221770.669029install
+Reference22: Team SnakemouthTeam SnakemouthVi119280.592507install
+Reference23: GT Template - Y CleanGirlTriangle1519070.586053install
+Reference24: kawari-testSentinelCHIPtest5319040.585131install
+Reference25: 雀-チュンチュンチュンチュンnone816520.507688install
+Reference26: Simplicity TemplateSimplicity Template1313090.402278install
+Reference27: NeedleNeedle1112700.390292install
+Reference28: MC DIAMONDMcDiamondFloat17120.218810install
+Reference29: X. Template YAYA - v1.1.7X. TemplateBlank16880.211434install
+Reference3: Aster? Terror Star!Aster(?)...14260418.002840install
+Reference30: The Peace PackSentinelCHIPtest25660.173941install
+Reference31: CharlieCharlie25580.171483install
+Reference32: Markmark0 twitch viewers64970.152737install
+Reference33: Snake and OtaconSnakeOtacon184370.134297install
+Reference34: THE TOXIC WALTZ毒子ほねゅう13980.122312install
+Reference35: Ghost GuidesYAYA Guide23220.098956install
+Reference36: The Poke!Partner ProgramPokeRotom42860.087893install
+Reference37: AairorAairorEmpty12510.077137install
+Reference38: HydrateHydrateYou being healthier82480.076215install
+Reference39: WanwanPochi-san何52020.062078install
+Reference4: The Great NorthernNightengaleScarborough26193815.956109install
+Reference40: Stumbling talkTaroBartender11420.043639install
+Reference41: ヒカリキツネ@hikarikitsune@hikarikitsune21180.036263install
+Reference42: Kaiju Attack!! On the Ghost Frontkaijuattack101130.034727install
+Reference43: CHIPS Template - testSentinelCHIPtest111100.033805install
+Reference44: 221B Baker StreetHerlock Sholmesand friends!2900.027659install
+Reference45: MIKUさんDay'sMIKU1900.027659install
+Reference46: DemomanDemomanNO1870.026737install
+Reference47: The Poke!Partner BetaAzaleaRotom1840.025815install
+Reference48: Aster? Assistant SoftwareAsterSide Panel2830.025507install
+Reference49: Gallery 512PaintingLil guy2740.022741install
+Reference5: Faeia & TahirFaeiaTahir12153504.717315install
+Reference6: 639C 灯花639C 灯花灯油ゅう896132.954237install
+Reference7: kawari-testCHIPtestnone4496002.950242install
+Reference8: Nanika AtsumeCricketKitties!565502.012926install
+Reference9: SSP AngelAngelPilot1458031.783360install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]Spaceships liquifying, flying free
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410010
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]Spaceships liquifying, flying free
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]pregnant goats. prowling rose.
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410010
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]pregnant goats. prowling rose.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: -1
+Reference1: -1
+Reference2: online
+Reference3: no_battery
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: CHIPS TemplateSentinelCHIPtest2779543229.327687boot
+Reference1: うかくろっくうかくろっく0うかくろっく1315785417.779403install
+Reference10: hazy daysHaezyDaisy839421.211436install
+Reference11: Nanika AtsumeCricketKitties2033161.019057install
+Reference12: Simplicity TemplateSimplicityTemplate1132941.012296install
+Reference13: FLUXFLUXMusic631900.980335install
+Reference14: Watchdog Banch?Jet何5730700.943457install
+Reference15: Nanika Atsumeごしゅじんにゃんこ127640.849419install
+Reference16: モニカ＆ネクスタモニカネクスタ126190.804858install
+Reference17: ShigureShigureTeruTeruBozu325000.768288install
+Reference18: LuxLuxLight224810.762449install
+Reference19: MesoMesoLilickInus424230.744624install
+Reference2: LOBOloremipsum30283838.722522boot
+Reference20: Aruto with White UnyuuArutoWhite Unyuu1123700.728337install
+Reference21: CelesteCelesteRecordings221770.669025install
+Reference22: Team SnakemouthTeam SnakemouthVi119280.592503install
+Reference23: GT Template - Y CleanGirlTriangle1519070.586050install
+Reference24: kawari-testSentinelCHIPtest5319040.585128install
+Reference25: 雀-チュンチュンチュンチュンnone816520.507684install
+Reference26: Simplicity TemplateSimplicity Template1313090.402275install
+Reference27: NeedleNeedle1112700.390290install
+Reference28: MC DIAMONDMcDiamondFloat17120.218808install
+Reference29: X. Template YAYA - v1.1.7X. TemplateBlank16880.211433install
+Reference3: Aster? Terror Star!Aster(?)...14260418.002790install
+Reference30: The Peace PackSentinelCHIPtest25660.173940install
+Reference31: CharlieCharlie25580.171482install
+Reference32: Markmark0 twitch viewers64970.152736install
+Reference33: Snake and OtaconSnakeOtacon184370.134297install
+Reference34: THE TOXIC WALTZ毒子ほねゅう13980.122311install
+Reference35: Ghost GuidesYAYA Guide23220.098955install
+Reference36: The Poke!Partner ProgramPokeRotom42860.087892install
+Reference37: AairorAairorEmpty12510.077136install
+Reference38: HydrateHydrateYou being healthier82480.076214install
+Reference39: WanwanPochi-san何52020.062078install
+Reference4: The Great NorthernNightengaleScarborough26193815.956072install
+Reference40: Stumbling talkTaroBartender11420.043639install
+Reference41: ヒカリキツネ@hikarikitsune@hikarikitsune21180.036263install
+Reference42: Kaiju Attack!! On the Ghost Frontkaijuattack101130.034727install
+Reference43: CHIPS Template - testSentinelCHIPtest111100.033805install
+Reference44: 221B Baker StreetHerlock Sholmesand friends!2900.027658install
+Reference45: MIKUさんDay'sMIKU1900.027658install
+Reference46: DemomanDemomanNO1870.026736install
+Reference47: The Poke!Partner BetaAzaleaRotom1840.025814install
+Reference48: Aster? Assistant SoftwareAsterSide Panel2830.025507install
+Reference49: Gallery 512PaintingLil guy2740.022741install
+Reference5: Faeia & TahirFaeiaTahir12153504.717286install
+Reference6: 639C 灯花639C 灯花灯油ゅう896132.954219install
+Reference7: kawari-testCHIPtestnone4496002.950224install
+Reference8: Nanika AtsumeCricketKitties!565502.012913install
+Reference9: SSP AngelAngelPilot1458031.783349install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]i want to be a cowboy! cowboy cowboy. what about you?
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 54100124
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]i want to be a cowboy! cowboy cowboy. what about you?
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 25
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 26
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOtherOverlap
+Reference0: Sentinel?/0-Sentinel?/1
+Reference1: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]i hid my advents in a secret room in your home. don't go looking for them.
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 54100114
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]i hid my advents in a secret room in your home. don't go looking for them.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 15
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: -1
+Reference1: -1
+Reference2: online
+Reference3: no_battery
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: CHIPS TemplateSentinelCHIPtest2779543329.327814boot
+Reference1: うかくろっくうかくろっく0うかくろっく1315785417.779294install
+Reference10: hazy daysHaezyDaisy839421.211428install
+Reference11: Nanika AtsumeCricketKitties2033161.019050install
+Reference12: Simplicity TemplateSimplicityTemplate1132941.012289install
+Reference13: FLUXFLUXMusic631900.980329install
+Reference14: Watchdog Banch?Jet何5730700.943451install
+Reference15: Nanika Atsumeごしゅじんにゃんこ127640.849413install
+Reference16: モニカ＆ネクスタモニカネクスタ126190.804853install
+Reference17: ShigureShigureTeruTeruBozu325000.768283install
+Reference18: LuxLuxLight224810.762444install
+Reference19: MesoMesoLilickInus424230.744620install
+Reference2: LOBOloremipsum30283848.722776boot
+Reference20: Aruto with White UnyuuArutoWhite Unyuu1123700.728332install
+Reference21: CelesteCelesteRecordings221770.669021install
+Reference22: Team SnakemouthTeam SnakemouthVi119280.592500install
+Reference23: GT Template - Y CleanGirlTriangle1519070.586046install
+Reference24: kawari-testSentinelCHIPtest5319040.585124install
+Reference25: 雀-チュンチュンチュンチュンnone816520.507681install
+Reference26: Simplicity TemplateSimplicity Template1313090.402273install
+Reference27: NeedleNeedle1112700.390288install
+Reference28: MC DIAMONDMcDiamondFloat17120.218807install
+Reference29: X. Template YAYA - v1.1.7X. TemplateBlank16880.211431install
+Reference3: Aster? Terror Star!Aster(?)...14260418.002741install
+Reference30: The Peace PackSentinelCHIPtest25660.173939install
+Reference31: CharlieCharlie25580.171481install
+Reference32: Markmark0 twitch viewers64970.152735install
+Reference33: Snake and OtaconSnakeOtacon184370.134296install
+Reference34: THE TOXIC WALTZ毒子ほねゅう13980.122311install
+Reference35: Ghost GuidesYAYA Guide23220.098955install
+Reference36: The Poke!Partner ProgramPokeRotom42860.087892install
+Reference37: AairorAairorEmpty12510.077136install
+Reference38: HydrateHydrateYou being healthier82480.076214install
+Reference39: WanwanPochi-san何52020.062077install
+Reference4: The Great NorthernNightengaleScarborough26193815.956036install
+Reference40: Stumbling talkTaroBartender11420.043638install
+Reference41: ヒカリキツネ@hikarikitsune@hikarikitsune21180.036263install
+Reference42: Kaiju Attack!! On the Ghost Frontkaijuattack101130.034726install
+Reference43: CHIPS Template - testSentinelCHIPtest111100.033804install
+Reference44: 221B Baker StreetHerlock Sholmesand friends!2900.027658install
+Reference45: MIKUさんDay'sMIKU1900.027658install
+Reference46: DemomanDemomanNO1870.026736install
+Reference47: The Poke!Partner BetaAzaleaRotom1840.025814install
+Reference48: Aster? Assistant SoftwareAsterSide Panel2830.025507install
+Reference49: Gallery 512PaintingLil guy2740.022741install
+Reference5: Faeia & TahirFaeiaTahir12153504.717257install
+Reference6: 639C 灯花639C 灯花灯油ゅう896132.954201install
+Reference7: kawari-testCHIPtestnone4496002.950206install
+Reference8: Nanika AtsumeCricketKitties!565502.012901install
+Reference9: SSP AngelAngelPilot1458031.783338install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]hydraulic hole
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410010
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]hydraulic hole
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOtherOverlap
+Reference0: 
+Reference1: Sentinel?/0-Sentinel?/1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]god's watching the apples, take as many fears as you like.
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410010
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]god's watching the apples, take as many fears as you like.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: -1
+Reference1: -1
+Reference2: online
+Reference3: no_battery
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: CHIPS TemplateSentinelCHIPtest2779543429.327941boot
+Reference1: うかくろっくうかくろっく0うかくろっく1315785417.779185install
+Reference10: hazy daysHaezyDaisy839421.211421install
+Reference11: Nanika AtsumeCricketKitties2033161.019044install
+Reference12: Simplicity TemplateSimplicityTemplate1132941.012283install
+Reference13: FLUXFLUXMusic631900.980323install
+Reference14: Watchdog Banch?Jet何5730700.943446install
+Reference15: Nanika Atsumeごしゅじんにゃんこ127640.849408install
+Reference16: モニカ＆ネクスタモニカネクスタ126190.804848install
+Reference17: ShigureShigureTeruTeruBozu325000.768278install
+Reference18: LuxLuxLight224810.762439install
+Reference19: MesoMesoLilickInus424230.744615install
+Reference2: LOBOloremipsum30283858.723030boot
+Reference20: Aruto with White UnyuuArutoWhite Unyuu1123700.728328install
+Reference21: CelesteCelesteRecordings221770.669017install
+Reference22: Team SnakemouthTeam SnakemouthVi119280.592496install
+Reference23: GT Template - Y CleanGirlTriangle1519070.586043install
+Reference24: kawari-testSentinelCHIPtest5319040.585121install
+Reference25: 雀-チュンチュンチュンチュンnone816520.507678install
+Reference26: Simplicity TemplateSimplicity Template1313090.402270install
+Reference27: NeedleNeedle1112700.390285install
+Reference28: MC DIAMONDMcDiamondFloat17120.218806install
+Reference29: X. Template YAYA - v1.1.7X. TemplateBlank16880.211430install
+Reference3: Aster? Terror Star!Aster(?)...14260418.002692install
+Reference30: The Peace PackSentinelCHIPtest25660.173938install
+Reference31: CharlieCharlie25580.171480install
+Reference32: Markmark0 twitch viewers64970.152734install
+Reference33: Snake and OtaconSnakeOtacon184370.134295install
+Reference34: THE TOXIC WALTZ毒子ほねゅう13980.122310install
+Reference35: Ghost GuidesYAYA Guide23220.098954install
+Reference36: The Poke!Partner ProgramPokeRotom42860.087891install
+Reference37: AairorAairorEmpty12510.077135install
+Reference38: HydrateHydrateYou being healthier82480.076213install
+Reference39: WanwanPochi-san何52020.062077install
+Reference4: The Great NorthernNightengaleScarborough26193815.955999install
+Reference40: Stumbling talkTaroBartender11420.043638install
+Reference41: ヒカリキツネ@hikarikitsune@hikarikitsune21180.036263install
+Reference42: Kaiju Attack!! On the Ghost Frontkaijuattack101130.034726install
+Reference43: CHIPS Template - testSentinelCHIPtest111100.033804install
+Reference44: 221B Baker StreetHerlock Sholmesand friends!2900.027658install
+Reference45: MIKUさんDay'sMIKU1900.027658install
+Reference46: DemomanDemomanNO1870.026736install
+Reference47: The Poke!Partner BetaAzaleaRotom1840.025814install
+Reference48: Aster? Assistant SoftwareAsterSide Panel2830.025507install
+Reference49: Gallery 512PaintingLil guy2740.022741install
+Reference5: Faeia & TahirFaeiaTahir12153504.717228install
+Reference6: 639C 灯花639C 灯花灯油ゅう896132.954183install
+Reference7: kawari-testCHIPtestnone4496002.950188install
+Reference8: Nanika AtsumeCricketKitties!565502.012889install
+Reference9: SSP AngelAngelPilot1458031.783327install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]i love you so strongly i look like a lackidasical thread in your presence. you reduce me to a shivering mess of adoration.
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410014
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]i love you so strongly i look like a lackidasical thread in your presence. you reduce me to a shivering mess of adoration.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 5
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]all your dandelion are belong to us
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410014
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]all your dandelion are belong to us
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 5
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: -1
+Reference1: -1
+Reference2: online
+Reference3: no_battery
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: CHIPS TemplateSentinelCHIPtest2779543529.328068boot
+Reference1: うかくろっくうかくろっく0うかくろっく1315785417.779075install
+Reference10: hazy daysHaezyDaisy839421.211413install
+Reference11: Nanika AtsumeCricketKitties2033161.019038install
+Reference12: Simplicity TemplateSimplicityTemplate1132941.012277install
+Reference13: FLUXFLUXMusic631900.980317install
+Reference14: Watchdog Banch?Jet何5730700.943440install
+Reference15: Nanika Atsumeごしゅじんにゃんこ127640.849403install
+Reference16: モニカ＆ネクスタモニカネクスタ126190.804843install
+Reference17: ShigureShigureTeruTeruBozu325000.768273install
+Reference18: LuxLuxLight224810.762435install
+Reference19: MesoMesoLilickInus424230.744611install
+Reference2: LOBOloremipsum30283868.723283boot
+Reference20: Aruto with White UnyuuArutoWhite Unyuu1123700.728323install
+Reference21: CelesteCelesteRecordings221770.669012install
+Reference22: Team SnakemouthTeam SnakemouthVi119280.592492install
+Reference23: GT Template - Y CleanGirlTriangle1519070.586039install
+Reference24: kawari-testSentinelCHIPtest5319040.585117install
+Reference25: 雀-チュンチュンチュンチュンnone816520.507675install
+Reference26: Simplicity TemplateSimplicity Template1313090.402268install
+Reference27: NeedleNeedle1112700.390283install
+Reference28: MC DIAMONDMcDiamondFloat17120.218804install
+Reference29: X. Template YAYA - v1.1.7X. TemplateBlank16880.211429install
+Reference3: Aster? Terror Star!Aster(?)...14260418.002643install
+Reference30: The Peace PackSentinelCHIPtest25660.173937install
+Reference31: CharlieCharlie25580.171479install
+Reference32: Markmark0 twitch viewers64970.152733install
+Reference33: Snake and OtaconSnakeOtacon184370.134294install
+Reference34: THE TOXIC WALTZ毒子ほねゅう13980.122309install
+Reference35: Ghost GuidesYAYA Guide23220.098954install
+Reference36: The Poke!Partner ProgramPokeRotom42860.087890install
+Reference37: AairorAairorEmpty12510.077135install
+Reference38: HydrateHydrateYou being healthier82480.076213install
+Reference39: WanwanPochi-san何52020.062076install
+Reference4: The Great NorthernNightengaleScarborough26193815.955963install
+Reference40: Stumbling talkTaroBartender11420.043638install
+Reference41: ヒカリキツネ@hikarikitsune@hikarikitsune21180.036263install
+Reference42: Kaiju Attack!! On the Ghost Frontkaijuattack101130.034726install
+Reference43: CHIPS Template - testSentinelCHIPtest111100.033804install
+Reference44: 221B Baker StreetHerlock Sholmesand friends!2900.027658install
+Reference45: MIKUさんDay'sMIKU1900.027658install
+Reference46: DemomanDemomanNO1870.026736install
+Reference47: The Poke!Partner BetaAzaleaRotom1840.025814install
+Reference48: Aster? Assistant SoftwareAsterSide Panel2830.025507install
+Reference49: Gallery 512PaintingLil guy2740.022741install
+Reference5: Faeia & TahirFaeiaTahir12153504.717199install
+Reference6: 639C 灯花639C 灯花灯油ゅう896132.954165install
+Reference7: kawari-testCHIPtestnone4496002.950170install
+Reference8: Nanika AtsumeCricketKitties!565502.012876install
+Reference9: SSP AngelAngelPilot1458031.783316install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]I kissed a chordate and I was wearing a little black dress.
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410012
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]I kissed a chordate and I was wearing a little black dress.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]oh, what headache those pernicious beacons are giving me. Would you mind turning them off?
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 5410010
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: lorem
+Value: \0\s[0]oh, what headache those pernicious beacons are giving me. Would you mind turning them off?
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnMinuteChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 541
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: lorem
+
+[SHIORI/SAORI Adapter] Query sequence end.

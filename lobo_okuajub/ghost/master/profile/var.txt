@@ -1,0 +1,10 @@
+Charset,UTF-8
+install,770182561
+homeurl_found,1
+surfacecount,3
+homeurl,https://raw.githubusercontent.com/Okuajub/pcPets/master/Ukagakas/Updates/LOBO/
+update_result,OK(1)
+firstboot,770182561
+update_time,776402263
+commitmemorysize,950657
+lastboot,797190149
