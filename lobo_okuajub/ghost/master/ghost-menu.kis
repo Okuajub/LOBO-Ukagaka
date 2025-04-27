@@ -56,6 +56,7 @@ OnStartHowl : $(?
 )
 
 OnPainHowl : (
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowlStart,pain]"
     "\0\s[1]\f[size,+20]"
     $(?
         \f[size,default]${soulscream}
@@ -67,6 +68,7 @@ OnPainHowl : (
 )
 
 OnSadHowl : (
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowlStart,sad]"
     "\0\s[1]\f[size,+20]"
     $(?
         "I LOCKED MYSELF OUT OF MY HOUUUUUUUUUUUUSE"
@@ -81,6 +83,7 @@ OnSadHowl : (
 )
 
 OnHopefulHowl : (
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowlStart,hopeful]"
     "\0\s[1]\f[size,+20]"
     $(?
         "SOMETHING BEAUTIFUL IS GOING TO HAPPEN"
@@ -95,6 +98,7 @@ OnHopefulHowl : (
 )
 
 OnStrangeHowl : (
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowlStart,strange]"
     "\0\s[1]\f[size,+20]"
     $(?
         "BEWARE THE "$(? "INLAND EMPIRE" "BLACK LODGE" "RED ROOM" "CAPITALIST IDEOLOGUES" "PAINTING OF RED, YELLOW, AND BLUE" "UNREALISTIC EXPECTATIONS")
@@ -108,6 +112,7 @@ OnStrangeHowl : (
 )
 
 OnVulgarHowl : (
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowlStart,vulgar]"
     "\0\s[1]\f[size,+20]"
     $(?
         $(toupper ${vulgar.noun.singular}" "$(loop 11 ${vulgar.noun.singular}" "))
@@ -118,6 +123,7 @@ OnVulgarHowl : (
 )
 
 OnNormalHowl : (
+    "\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowlStart,normal]"
     "\0\s[1]"
     $(?
         "\f[size,+20]AAAA"$(loop $(rand 8) A)"RR"$(loop $(rand 4) R)"UUU"$(loop $(rand 7) U)"OOOO"$(loop $(rand 20) O)$(loop $(rand 20) o)

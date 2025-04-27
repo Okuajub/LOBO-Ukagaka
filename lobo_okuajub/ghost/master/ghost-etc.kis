@@ -53,11 +53,11 @@ talk.OnNeedlePoke0 : (
     "! \0\s[0]What the "${vulgar.noun.singular}", "${personName}"?"
     $(? " A "${vulgar.verb.progressive}" "$(Reference 1)"?")
 )
-talk.OnNeedlePoke0 : "\0\s[1]"${soulscream}"!\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]\_w[1000]\0\s[0]"
+talk.OnNeedlePoke0 : "\0\s[1]\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowlStart,pain]"${soulscream}"!\![raiseother,__SYSTEM_ALL_GHOST__,OnLoboHowl,pain]\_w[1000]\0\s[0]"
 
 talk.OnSatolistBoot : "\0\s[0]Aha, building a new "${noun.singular}"? I'd love it if you made it "${verb.present}"."
 talk.OnSatolistBoot : "\0\s[0]Hrm, hmm, heem heem. You can navigate this thing?"
-talk.OnSatolistBoot : "MUST GENERATE CONTENT"
+talk.OnSatolistBoot : "\0\s[0]MUST GENERATE CONTENT"
 
 talk.OnSatolistLoboOpened : "\0\s[0]Aeeeiiiiieee!!!! What exactly do you think YOU'RE doing?"
 talk.OnSatolistLoboOpened : "\0\s[0]don't mess around with my guts, don't stick your hands in there"

@@ -76,9 +76,9 @@ location : park, city, town, tower, hall, meadow, space, time, dimension, body, 
 
 personName : Daniel, Prometheus, Neil, Aaron, Sam, Shannon, ${tempUser}, Faust, Starbuck, Jordan, Derek, Theresa, Liam, Robert, David
 personName : Lammy, Shinji, Leon, Christian, Lee, Ted, Kate, Mac, Christine, Wayne, Thomas, Charlie, Giles, "Stevie Nicks", Michael, Haru
-personName : Watson, Bacchus, Rahman, Umar, Logic, Mario, Sakura, Kero, Nosferatu, Dracula, Al, $(? "Detective " "Sherrif " "")Harry, 
+personName : Watson, Bacchus, Rahman, Umar, Logic, Mario, Sakura, Kero, Nosferatu, Dracula, Al, $(? "Detective " "Sherrif " "")Harry
 personName : Kim, Alex, John, James, Neo, Tim, Auberon, Emmet, Bella, Christian, Zapruder, $(? "D.B. " "Agent " "")Cooper
-personName : Mark, Adam, Remora, Maria, Lieutenant Anderson, Wes, Duck, Shawn
+personName : Mark, Adam, Remora, Maria, Lieutenant Anderson, Wes, Duck, Shawn, Mary Jane
 
 soulscream : $(
     loop $[ 3 + $(? 0 5 10 20)] $(
@@ -181,6 +181,14 @@ sentence : "\0\s[0]the light of Heaven shines down upon you, like an ant under a
 
 sentence : "\0\s[0]big money, no whammies"
 
+sentence : "\0\s[0]Kind of rude what they did to that Julius Caesar guy."
+
+sentence : "\0\s[0]pizza pizza"
+
+sentence : "\0\s[0]Just take the compliment. Don't rob people the agency of loving you."
+
+sentence : "\0\s[0]get gayer."
+
 sentence : ( 
     "\0\s[0]Quackery, often synonymous with health fraud, is the promotion of fraudulent or ignorant medical practices.\n\n\f[size,-3]"
     "Wikipedia contributors. (2024, December 9). Quackery. In Wikipedia, The Free Encyclopedia. "
@@ -196,6 +204,10 @@ sentence : "\0\s[0]The Frightened Ones are in need of prosthetic limbs and recon
 sentence : "\0\s[0]War planes fly like artifical albatrosses, screaming and screeching through the sky. diving to earth, covered in oil."
 
 sentence : "\0\s[0]don't rub me too much or i might scream"
+
+sentence : "\0\s[0]"$(? virtual artificial digital simulated synthetic imitation 偽)" insanity, how far technology has come"$(? ". we may never see the sun again" "")
+
+sentence : "\0\s[0]this is "$(? "" "soooo " "male " "female ")"bonding time."
 
 sentence : "\0\s[0]I kissed a "${noun.singular}" and I "$(? 
     "liked it." 
@@ -269,6 +281,8 @@ sentence : (
     )
     "."
 )
+
+sentence : "\0\s[0]\"Bark for me?\" What do I look like, some kind of "${noun.singular}"?"
 
 sentence : "\0\s[0]You should take a vacation in "${placeName}". I've heard they've got "${adjective}" "$(? "beaches" "malls" "gift shops" "mountains" "blood lakes" "massacre sites" "butlers" "sunrises" "schools")"."
 
@@ -344,6 +358,16 @@ sentence : (
         "ha ha, just kidding. and your phone number is 555-"$(rand 10)$(rand 10)$(rand 10)"-"$(rand 10)$(rand 10)$(rand 10)$(rand 10)" too, right?"
     )
 )
+
+sentence : (
+    "\0\s[0]I have memorized the whole Anarchist's Cookbook. Would you like an excerpt?\n"
+    $(?
+        "[REDACTED]"
+        "\"...making tear gas is so simple that anyone can do it.\"\n\nI would know."
+        "\n\_w[1000]My lawyer has advised I refrain from verbal combat."
+    )
+)
+
 sentence : (
     "\0\s[0]i want to be "
     $(?
@@ -627,6 +651,9 @@ sentence : "\0\s[0]Da-don, da-don. thump my tail on your chest like a drum. i lo
 
 # Here's the hour roll-over event. It's in the 24-hour format. Be aware it doesn't always go off exactly on the hour. If you don't want it, just erase it or comment it.
 talk.OnHourTimeSignal : "\0\s[0]Have you considered the shortness of your lives? Shortness of your breath? Shortness of your "${noun.singular}"?"
+talk.OnHourTimeSignal : "\0\s[0]foolish"$(? " "${vulgar.verb.progressive} "")" mortal."$(? " Try and Try and Try to outrun the sandman, will you? He slips right through your fingers." "")
+talk.OnHourTimeSignal : "\0\s[0]Sands of the hour glass fall grain by grain. Such a shame that particular grain can't be grown, only consumed."
+talk.OnHourTimeSignal : "\0\s[0]What big eyes you have. All the better to bear witness with."
 
 #--
 # IMPORTANT, DO NOT DELETE
